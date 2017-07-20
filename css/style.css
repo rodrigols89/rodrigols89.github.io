@@ -209,130 +209,18 @@ padding: 0 0.25em;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Style for the links Navigation Bar and footer*/
-.navbar-inverse .navbar-nav > li > a, #id-footer .nav a {
-  color: white;
-  font-size: 16px;
-}
+/* ================ Estilo para o hover da Barra de Navegação ================ */
 .navbar-inverse .navbar-nav > li > a:hover, #id-footer .nav a:hover {
-  color: #9bf0e1;
+  color: #000000;
   background: none;
 }
 
 
 
-
-
-
-
-
-
-/* ================ Buttons ================*/
-.btn-custom{
+/* ================ Style for the links Navigation Bar and footer ================ */
+.navbar-inverse .navbar-nav > li > a, #id-footer .nav a {
   color: white;
-  border-radius: 500px;
-  padding: 10px 35px;
-  margin: 0px 15px;
-  /* All Browsers */
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  text-transform: uppercase; /* Capital letters */
-  /* Seconds to change background and color */
-  transition: background 0.4s, color 0.4s;
-}
-
-.btn-purple{
-  background: #7c25f8;
-}
-
-.btn-purple:hover{
-  background-color: #6207e3;
-  color: white;
-}
-
-.btn-white{
-  border: 2px solid white;
-}
-
-.btn-white:hover{
-  background-color: white;
-  color: black;
-}
-
-
-
-
-
-
-.albums{
-  padding: 10px 0px 10px 0px; 
-}
-
-/* Rotates any element */
-.to-rotate{
-  transform: rotate(30deg);
-  padding-left: 80px;
-}
-
-
-
-
-
-
-
-/* ================ Devices section ================ */
-
-
-/* Code for img center */
-center-block{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.text-white {
-    color: #fff;
-}
-
-.item{
-  color: #fff;
-  padding: 0px 5px;
   font-size: 16px;
-  text-transform: uppercase;
-  display: inline;
-}
-
-.item-space{
-  color: blue;
-  font-size: 16px;
-  padding: 5px 5px;
-  display: inline;
 }
 
 
@@ -347,8 +235,6 @@ footer{
 .social-networks{
   float: right;
 }
-
-
 
 /* ================ Typography ================*/
 h1{
@@ -368,36 +254,6 @@ h3{
   font-size: 35px;
   font-weight: 700;
   letter-spacing: -0.04em;
-}
-
-#services h2, #services h3{
-  color: #7c25f8;
-}
-
-#services p{
-  font-size: 18px;
-  color: black;
-}
-
-#resources h2{
-color: white;
-font-size: 50px;
-font-weight: 700;
-letter-spacing: -.04em;
-line-height: 1;
-margin: 0 0 .75em;
-}
-
-#resources h3{
-color: #9bf0e1;
-font-size: 40px;
-font-weight: 700;
-letter-spacing: -.04em;
-}
-
-#resources p{
-  font-size: 18px;
-  color: white;
 }
 
 #id-footer h4{

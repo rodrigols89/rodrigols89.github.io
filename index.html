@@ -258,7 +258,7 @@
             <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
             <form name="sentMessage" id="contactForm" novalidate>
 
-              <!---->
+              <!-- CAMPO PARA ENTRADA(INPUT) DO NOME DO USUÁRIO -->
               <div class="row control-group">
                 <div class="form-group col-xs-12 floating-label-form-group controls">
                   <label for="name">Name</label>
@@ -267,7 +267,7 @@
                 </div>
               </div>
               
-              <!---->
+              <!-- CAMPO PARA ENTRADA(INPUT) DO E-MAIL DO USUÁRIO -->
               <div class="row control-group">
                 <div class="form-group col-xs-12 floating-label-form-group controls">
                   <label for="email">Email Address</label>
@@ -276,7 +276,7 @@
                 </div>
               </div>
               
-              <!---->
+              <!-- CAMPO PARA ENTRADA(INPUT) DO TELEFONE DO USUÁRIO -->
               <div class="row control-group">
                 <div class="form-group col-xs-12 floating-label-form-group controls">
                   <label for="phone">Phone Number</label>
@@ -285,7 +285,7 @@
                 </div>
               </div>
               
-              <!---->
+              <!-- CAMPO DE TEXTO PARA ENTRADA(INPUT) DA MENSAGEM -->
               <div class="row control-group">
                 <div class="form-group col-xs-12 floating-label-form-group controls">
                   <label for="message">Message</label>
@@ -293,11 +293,12 @@
                   <p class="help-block text-danger"></p>
                 </div>
               </div>
+              
               <br>
               <div id="success"></div>
               <div class="row">
                 <div class="form-group col-xs-12">
-                  <!---->
+                  <!-- BOTÃO SUBMIT PARA ENVIAR O FORMULÁRIO -->
                   <button type="submit" class="btn btn-success btn-lg">Send</button>
                 </div>
               </div>
@@ -313,70 +314,147 @@
     <!-- /Fim da section #contact -->
     
 
-    <!-- Footer -->
+    <!-- Início do footer da página -->
     <footer id="id-footer">
+        
+      <!-- Início do .container -->      
       <div class="container">
         
-        <!--Begin .row -->
-        <div>
-          
-          <div class="col-md-2">
-            <span class="img-logo">Spotify</span>
-          </div><!-- /End col-md-2 -->
-          
-          <div class="col-md-2">
-            <h4>Empresa</h4>
-            <ul class="nav">
-              <li><a href="#">Sobre</a></li>
-              <li><a href="#">Empregos</a></li>
-              <li><a href="#">Imprensa</a></li>
-              <li><a href="#">Novidades</a></li>
-            </ul><!-- /End ul -->
-          </div><!-- /End col-md-2 -->
-          
-          <div class="col-md-2">
-            <h4>Comunidades</h4>
-            <ul class="nav">
-              <li><a href="#">Para Artistas</a></li>
-              <li><a href="#">Desenvolvedores</a></li>
-              <li><a href="#">Marcas</a></li>
-            </ul><!-- /End ul -->
-          </div><!-- /End col-md-2 -->
-          
-          <div class="col-md-2">
-            <h4>Links Úteis</h4>
-            <ul class="nav">
-              <li><a href="#">Ajuda</a></li>
-              <li><a href="#">Presente</a></li>
-              <li><a href="#">Player da Web</a></li>
-            </ul><!-- /End ul -->
-          </div><!-- /End col-md-2 -->
-          
-          <div class="col-md-4">
-            <ul class="nav">
-              <li class="social-networks">
-                 <a href="https://www.facebook.com/SpotifyBrasil/?brand_redir=6243987495"><img src="imagens/facebook.png" target="_blank"></a>
-              </li>
-              <li class="social-networks">
-                <a href="https://twitter.com/spotify"><img src="imagens/twitter.png" target="_blank"></a>
-              </li>
-              <li class="social-networks">
-                <a href="https://www.instagram.com/spotify/"><img src="imagens/instagram.png" target="_blank"></a>
-              </li>
-            </ul><!-- /End ul -->
-          </div><!-- /End col-md-4 -->
+        <!-- Início da PRIMEIRA linha(.row) do footer -->
+        <div class="row">
         
-        </div><!-- /End .row-->
+          <!-- Início do Grid de localização -->
+          <div class="footer-col col-md-4">
+            <h3>Location</h3>
+            <hr class="style-four">
+            <p>Campina Grande - Paraíba<br>
+              Alto Branco - 58401624</p>
+          </div>
+          <!-- /Fim do Grid de localização -->
+          
         
-      </div><!-- /End .container -->
-    </footer><!-- /End footer-->
+          <!-- Início do Grid de redes sociais -->
+          <div class="footer-col col-md-4">
+            <h3>Around the Web</h3>
+            <hr class="style-four">
+            <ul class="list-inline">
+              <!-- GitHub-->
+              <li>
+                <a href="https://github.com/drigols/" class="btn-social btn-outline" target="_blank" title="GitHub"><span class="sr-only">GitHub</span><i class="fa fa-fw fa-github"></i></a>
+              </li>
+              <!-- GitLab-->
+              <li>
+                <a href="https://gitlab.com/drigols" class="btn-social btn-outline" target="_blank" title="GitLab"><span class="sr-only">GitLab</span><i class="fa fa-fw fa-gitlab"></i></a>
+              </li>
+              <!-- Trello -->
+              <li>
+                <a href="https://trello.com/drigols" class="btn-social btn-outline" target="_blank" title="Trello"><span class="sr-only">Trello</span><i class="fa fa-fw fa-trello"></i></a>
+              </li>
+              <!-- Dribbble -->
+              <li>
+                <a href="https://dribbble.com/drigols" class="btn-social btn-outline" target="_blank" title="Dribbble"><span class="sr-only">Dribbble</span><i class="fa fa-fw fa-dribbble"></i></a>
+              </li>
+              <!-- StackOverflow -->
+              <li>
+                <a href="https://stackoverflow.com/users/8047904/drigols" class="btn-social btn-outline" target="_blank" title="StackOverflow"><span class="sr-only">StackOverflow</span><i class="fa fa-fw fa-stack-overflow"></i></a>
+              </li>
+              <!-- Linkedin -->  
+              <li>
+                <a href="https://www.linkedin.com/in/drigols/" class="btn-social btn-outline" target="_blank" title="Linkedin"><span class="sr-only">Linkedin</span><i class="fa fa-fw fa-linkedin"></i></a>
+              </li>
+              <!-- Twitter -->
+              <li>
+                <a href="https://twitter.com/drigols_dd" class="btn-social btn-outline" target="_blank" title="Twitter"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
+              </li>
+              <!-- Facebook Page -->
+              <li>
+                <a href="https://www.facebook.com/DrigolsCreative/" class="btn-social btn-outline" target="_blank" title="Facebook"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
+              </li>
+              <!-- Instagram -->
+              <li>
+                <a href="https://www.instagram.com/drigols/" class="btn-social btn-outline" target="_blank" title="Instagram"><span class="sr-only">Instagram</span><i class="fa fa-fw fa-instagram"></i></a>
+              </li>
+              <!-- Google+ -->
+              <li>
+                <a href="https://plus.google.com/114771423497801867159" class="btn-social btn-outline" target="_blank" title="Google+"><span class="sr-only">Google+</span><i class="fa fa-fw fa-google-plus"></i></a>
+              </li>  
+              <!-- YouTube-->
+              <li>
+                <a href="https://www.youtube.com/channel/UCE7F50ONDhetsROsLaMTwrQ" class="btn-social btn-outline" target="_blank" title="YouTube"><span class="sr-only">YouTube</span><i class="fa fa-fw fa-youtube"></i></a>
+              </li>
+              <!-- reddit -->
+              <li>
+                <a href="https://www.reddit.com/user/drigols/" class="btn-social btn-outline" target="_blank" title="reddit"><span class="sr-only">reddit</span><i class="fa fa-fw fa-reddit"></i></a>
+              </li>
+            </ul>
+          </div>
+          <!-- /Fim do Grid de redes sociais -->
+          
+          
+          <!-- Início do Grid de Visualizações(Views) -->    
+          <div class="footer-col col-md-4">
+            <h3>Views</h3>
+            <hr class="style-four">
+            
+            <!-- Início da tabela(table)-->
+            <table class="table">
+              <!-- Início do cabeçalho da tabela-->
+              <thead>
+                <!-- Início da linha(table row) do cabeçalho -->
+                <tr>
+                  <th>Today</th>
+                  <th>Month</th>
+                  <th>Total</th>
+                </tr>
+                <!-- /Fim da linha(table row) do cabeçalho -->
+              </thead>
+              <!-- Início do cabeçalho da tabela-->
+              
+              <!-- Início do corpo(tbody) da tabela -->
+              <tbody>
+                <!-- Início da linha(table row) de dados(table data) -->
+                <tr>
+                  <td><span>0</span></td>
+                  <td><span>0</span></td>
+                  <td><span>0</span></td>
+                </tr>
+                <!-- Início da linha(table row) de dados(table data) -->
+              </tbody>
+              <!-- Início do corpo(tbody) da tabela -->
+            </table>
+            <!-- /Fim da tabela(table)-->
+            
+          </div>
+          <!-- Início do Grid de Visualizações(Views) -->    
+          
+        </div>
+        <!-- /Fim da PRIMEIRA linha(.row) do footer -->
+        
+      </div>
+      <!-- /Fim do .container -->
+
+      
+      <!-- Início da SEGUNDA linha(.row) do footer -->
+      <div class="row" align="center">
+        <div class="col-lg-12">
+          <hr class="style-four">
+          Copyright &copy; drigols 2017
+          <hr class="style-four">
+        </div>
+      </div>
+      <!-- /Fim da SEGUNDA linha(.row) do footer -->
+      
+    </footer>
+    <!-- /Fim do footer da página-->
 
 
     
+    <!---->
     <!--
       CRIAÇÃO DA PÁGINA INTERNA COM OS
       TRABALHOS.
     -->
+    <!---->
     
     <!-- Início do PRIMEIRO trabalho -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -540,92 +618,6 @@
       </div>
     </div>
     <!-- /Fim do TERCEIRO trabalho -->
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     

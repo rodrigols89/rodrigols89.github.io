@@ -1,0 +1,413 @@
+/*
+*
+* @Author drigols
+* @Version 0.0
+*/
+
+
+
+/* ================ Layout ================ */
+html, body, .cover{
+  height: 100%;
+}
+
+
+
+/* ================ Background Styles ================ */
+body{
+  background: url(""),
+              url(""),
+              linear-gradient(50deg, #00d2ff, #283048);
+   /* Background fixed */
+  /* background does not move */
+  background-attachment: fixed;
+  font-family: Helvetica, Arial, sans-serif; /* Font family */
+  overflow-x: hidden; /* Removes the horizontal navigation bar  */
+}
+
+
+
+/* ================ Estilização para o menu-dropdown ================ */
+.menu{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+/* ================ Estilização para os itens da lista ================ */
+.menu-li{
+  border: 1px solid black;
+  margin: 0px;
+  padding: 0px;
+    background: url(""),
+              url(""),
+              linear-gradient(50deg, #00d2ff, #283048);
+   /* Background fixed */
+  /* background does not move */
+  font-family: Helvetica, Arial, sans-serif; /* Font family */
+}
+
+
+
+/* ================ Navigation Bar ================ */
+/* Creation of the logo of page */
+.img-logo{
+  height: 40px;
+  width: 132px;
+  font-size: 40px;
+  text-shadow: 2px 2px 8px #FF0000;
+  font-family: "Times New Roman", Times, serif;
+  display: block; /* Transforms the element into block element */
+  background-size: contain;
+}
+
+
+
+/* ================ Style transparent in navigation bar ================ */
+nav.navbar-transparent{
+  padding: 15px 0px;
+  background: rgba(0, 0, 0, 0.6); /* Applying the Opacity Style in background */
+  border: none; /* Remove the border the navigation bar */
+}
+
+
+
+/* ================ Estilo para as letras da Barra de Navegação ================ */
+.text-navbar{
+  text-transform: uppercase;
+  font-size: 15px;
+  text-shadow: 2px 2px 8px #FF0000;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  background-size: contain;
+}
+
+
+
+/* ================ Cover image ================ */
+.cover{
+  display: table;
+  width: 100%; /* 100% width of the background */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/* ================ Centraliza a imagem no meio da div ================ */
+img{
+  margin: auto;
+}
+
+
+
+/* ================ Estilo de texto ================ */
+.text-cover{
+  text-align: center; /* Centralized text */
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+
+/* ================ Estilo para o nome do profissional ================*/
+.name{
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 4.75em;
+  text-shadow: 2px 2px 8px #FF0000;
+  word-spacing: 7px;
+}
+
+
+
+/* ================ Estilo para o nome drigols ================ */
+.drigols{
+  color: #640D14;
+  text-shadow: 2px 2px 8px #000000;
+  text-decoration: underline;
+}
+
+
+
+/* ================ Estilo para o nome Software Engineeer ================ */
+.drigols-non-underline{
+  color: #000000;
+  text-shadow: 2px 2px 8px #000000;
+}
+
+
+
+/* ================ Estilo para as habilidades ================*/
+.skills{
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.75em;
+  font-weight: 300;
+  text-shadow: 2px 2px 8px #FF0000;
+}
+
+
+
+/* ================ Estilo para divisão de nome/skills ================ */
+hr.style-four {
+padding: 0;
+border: none;
+border-top: medium double #333;
+color: #333;
+text-align: center;
+}
+hr.style-four:after {
+display: inline-block;
+position: relative;
+top: -0.7em;
+font-size: 1.5em;
+padding: 0 0.25em;
+}
+
+
+
+/* ================ Título da portfolio ================ */
+#portfolio-title{
+  text-align: center;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px #FF0000;
+  color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style for .divider class */
+.divider{
+  width: 1px;
+  height: 16px;
+  background: white;
+  margin: 16px 10px;
+}
+
+/* Style for the links Navigation Bar and footer*/
+.navbar-inverse .navbar-nav > li > a, #id-footer .nav a {
+  color: white;
+  font-size: 16px;
+}
+.navbar-inverse .navbar-nav > li > a:hover, #id-footer .nav a:hover {
+  color: #9bf0e1;
+  background: none;
+}
+
+
+
+
+
+
+
+
+
+/* ================ Buttons ================*/
+.btn-custom{
+  color: white;
+  border-radius: 500px;
+  padding: 10px 35px;
+  margin: 0px 15px;
+  /* All Browsers */
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  text-transform: uppercase; /* Capital letters */
+  /* Seconds to change background and color */
+  transition: background 0.4s, color 0.4s;
+}
+
+.btn-purple{
+  background: #7c25f8;
+}
+
+.btn-purple:hover{
+  background-color: #6207e3;
+  color: white;
+}
+
+.btn-white{
+  border: 2px solid white;
+}
+
+.btn-white:hover{
+  background-color: white;
+  color: black;
+}
+
+
+
+/* ================ Services section ================ */
+#portfolio{
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.albums{
+  padding: 10px 0px 10px 0px; 
+}
+
+/* Rotates any element */
+.to-rotate{
+  transform: rotate(30deg);
+  padding-left: 80px;
+}
+
+
+
+/* ================ Resources section ================ */
+#resources{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+/* ================ Devices section ================ */
+.jumbotron-devices{
+  padding-bottom: 80px;
+  padding-top: 96px;
+  background: #232323 no-repeat scroll 0 0 ;
+
+}
+
+.jumbotron{
+  margin: 0;
+  position: relative; /* Background is over the image*/
+  width: 100%;
+  text-align: center;
+  color: #2e2f33;
+}
+
+/* Code for img center */
+center-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.item{
+  color: #fff;
+  padding: 0px 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: inline;
+}
+
+.item-space{
+  color: blue;
+  font-size: 16px;
+  padding: 5px 5px;
+  display: inline;
+}
+
+
+
+/* ================ Footer ================ */
+footer{
+  background: #000;
+  padding: 50px 0px 20px 0px;
+  position: relative; /* Background is over the image*/
+}
+
+.social-networks{
+  float: right;
+}
+
+
+
+/* ================ Typography ================*/
+h1{
+  font-size: 100px;
+  font-weight: 900;
+  letter-spacing: -0.05em; /* Espaço entre letras */
+  margin-bottom: 50px;
+}
+
+h2{
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+h3{
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+#services h2, #services h3{
+  color: #7c25f8;
+}
+
+#services p{
+  font-size: 18px;
+  color: black;
+}
+
+#resources h2{
+color: white;
+font-size: 50px;
+font-weight: 700;
+letter-spacing: -.04em;
+line-height: 1;
+margin: 0 0 .75em;
+}
+
+#resources h3{
+color: #9bf0e1;
+font-size: 40px;
+font-weight: 700;
+letter-spacing: -.04em;
+}
+
+#resources p{
+  font-size: 18px;
+  color: white;
+}
+
+#id-footer h4{
+  color: #919496;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}

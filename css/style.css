@@ -96,8 +96,12 @@ nav.navbar-transparent{
 
 
 /* ================ Centraliza a imagem no meio da div ================ */
+/*
+* 0 em margin-top e margin-bottom
+* auto em margin-left e margin-right
+*/
 img{
-  margin: auto;
+  margin: 0 auto;
 }
 
 

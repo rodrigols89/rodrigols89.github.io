@@ -21,6 +21,8 @@
 @import "layout/grid";
 @import "layout/header";
 @import "layout/sidebar";
+@import "layout/body";
+@import "layout/cover";
 
 /* Page-specific style sheets */
 @import "pages/contact";
@@ -33,3 +35,4 @@
 /* Vendors and external stylesheets */
 @import "vendors/bootstrap";
 @import "vendors/jquery";
+

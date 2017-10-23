@@ -1,7 +1,69 @@
 /* Base stuff */
 /* Componentes and modules */
+/* Colors variables */
+/* Images variables */
+/* Background variables */
+.dropdown-menu {
+  background: rgba(0, 0, 0, 0);
+  padding: 0px;
+  margin: 0px;
+}
+
+.dropdown-item:hover {
+  background: rgba(0, 0, 0, 0);
+}
+.dropdown-item:active {
+  background: #000;
+}
+
+/* Colors variables */
+/* Images variables */
+/* Background variables */
+/* Colors variables */
+/* Images variables */
+/* Background variables */
+nav {
+  text-transform: uppercase;
+  font-size: 10px;
+  text-shadow: 2px 2px 8px #000;
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav {
+  border-bottom: 1px solid #000;
+  margin-bottom: 30px;
+}
+
+.navbar-brand:active {
+  text-shadow: 2px 2px 8px #fff;
+}
+
 /* Sass utilities/helpers */
+/* Colors variables */
+/* Images variables */
+/* Background variables */
+nav {
+  text-transform: uppercase;
+  font-size: 10px;
+  text-shadow: 2px 2px 8px #000;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Colors variables */
+/* Images variables */
+/* Background variables */
 /* Layout */
+body {
+  background-image: url("../images/background-white.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Colors variables */
+/* Images variables */
+/* Background variables */
 /* Page-specific style sheets */
 /* Themes */
 /* Vendors and external stylesheets */

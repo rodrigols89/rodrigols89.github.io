@@ -1,0 +1,12 @@
+/* Colors variables */
+$black: #000 !default;
+$white: #fff !default;
+$transparent: rgba(0, 0, 0, 0) !default;
+
+/* Images variables */
+$robot-ai: "../images/robot-ai-01.png";
+$blocks-ai: "../images/background-white.jpg";
+
+/* Background variables */
+$background-ai-robot: $robot-ai;
+$background-ai-block: $blocks-ai;

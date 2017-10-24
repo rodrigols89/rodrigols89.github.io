@@ -19,6 +19,15 @@ hr.style-four:after {
 /* Colors variables */
 /* Images variables */
 /* Background variables */
+.section-title {
+  text-align: center;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px #FF0000;
+  color: #000;
+}
+
 .dropdown-menu {
   background: rgba(0, 0, 0, 0);
   padding: 0px;
@@ -35,9 +44,27 @@ hr.style-four:after {
 /* Colors variables */
 /* Images variables */
 /* Background variables */
+.section-title {
+  text-align: center;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px #FF0000;
+  color: #000;
+}
+
 /* Colors variables */
 /* Images variables */
 /* Background variables */
+.section-title {
+  text-align: center;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px #FF0000;
+  color: #000;
+}
+
 nav {
   text-transform: uppercase;
   font-size: 10px;
@@ -57,6 +84,15 @@ nav {
 /* Colors variables */
 /* Images variables */
 /* Background variables */
+.section-title {
+  text-align: center;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px #FF0000;
+  color: #000;
+}
+
 nav {
   text-transform: uppercase;
   font-size: 10px;
@@ -67,6 +103,15 @@ nav {
 /* Colors variables */
 /* Images variables */
 /* Background variables */
+.section-title {
+  text-align: center;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px #FF0000;
+  color: #000;
+}
+
 /* Layout */
 /* ================ Layout ================ */
 html, body, .cover {
@@ -86,9 +131,27 @@ body {
 /* Colors variables */
 /* Images variables */
 /* Background variables */
+.section-title {
+  text-align: center;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px #FF0000;
+  color: #000;
+}
+
 /* Colors variables */
 /* Images variables */
 /* Background variables */
+.section-title {
+  text-align: center;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px #FF0000;
+  color: #000;
+}
+
 nav {
   text-transform: uppercase;
   font-size: 10px;
@@ -137,6 +200,33 @@ nav {
   font-size: 1.75em;
   font-weight: 900;
   text-shadow: 0px 0px 2px #000;
+}
+
+/* Colors variables */
+/* Images variables */
+/* Background variables */
+.section-title {
+  text-align: center;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px #FF0000;
+  color: #000;
+}
+
+nav {
+  text-transform: uppercase;
+  font-size: 10px;
+  text-shadow: 2px 2px 8px #000;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#portfolio {
+  background: #fff;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding-top: 90px;
+  padding-bottom: 50px;
 }
 
 /* Page-specific style sheets */

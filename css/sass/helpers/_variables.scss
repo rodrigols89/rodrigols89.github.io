@@ -10,3 +10,12 @@ $blocks-ai: "../images/background-white.jpg";
 /* Background variables */
 $background-ai-robot: $robot-ai;
 $background-ai-block: $blocks-ai;
+
+.section-title{
+    text-align: center;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 2px 2px 8px #FF0000;
+    color: $black;
+  }

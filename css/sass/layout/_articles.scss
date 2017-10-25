@@ -1,0 +1,25 @@
+@import "../helpers/helpers";
+
+#articles{
+    background: $white;
+}
+
+.box-articles{
+    h1{
+        color: $black;
+        text-transform: initial;
+    }
+    a{
+        font-size: 20px;
+        color:$blue;
+        &:hover{
+            color: $blue;
+        }
+    }
+    p{
+        color: $black;
+    }
+    border-bottom: 1px solid $black;
+    padding-top: 50px;
+    padding-bottom: 5px;
+}

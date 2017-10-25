@@ -93,7 +93,7 @@ nav {
 /* ================ Footer ================ */
 footer {
   background: #000;
-  padding: 50px 0px 20px 0px;
+  padding: 50px 0px 0px 0px;
   position: relative;
   /* Background is over the image*/
 }
@@ -157,7 +157,6 @@ nav {
 .drigols {
   color: #000;
   text-shadow: 2px 2px 8px #000;
-  text-decoration: underline;
 }
 
 .skills {
@@ -213,6 +212,40 @@ nav {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-shadow: 2px 2px 8px #FF0000;
+  color: #000;
+}
+
+/* Colors variables */
+/* Images variables */
+/* Background variables */
+nav {
+  text-transform: uppercase;
+  font-size: 10px;
+  text-shadow: 2px 2px 8px #000;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#articles {
+  background: #fff;
+}
+
+.box-articles {
+  border-bottom: 1px solid #000;
+  padding-top: 50px;
+  padding-bottom: 5px;
+}
+.box-articles h1 {
+  color: #000;
+  text-transform: initial;
+}
+.box-articles a {
+  font-size: 20px;
+  color: #0000ff;
+}
+.box-articles a:hover {
+  color: #0000ff;
+}
+.box-articles p {
   color: #000;
 }
 

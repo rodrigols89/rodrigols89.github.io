@@ -1,0 +1,23 @@
+{
+  "name": "drigols.github.io",
+  "version": "2.0.0",
+  "description": "My page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drigols/drigols.github.io.git"
+  },
+  "keywords": [
+    "Digital",
+    "Portfolio"
+  ],
+  "author": "drigols <drigols.creative@gmail.com> (https://drigols.github.io/)",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/drigols/drigols.github.io/issues"
+  },
+  "homepage": "https://github.com/drigols/drigols.github.io#readme"
+}

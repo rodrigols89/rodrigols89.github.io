@@ -1,0 +1,16 @@
+@import "../helpers/variables";
+
+.dropdown-menu{
+    background: $transparent;
+    padding: 0px;
+    margin: 0px;
+}
+
+.dropdown-item{
+    &:hover{
+        background: $transparent;
+    }
+    &:active{
+        background: $black;
+    }
+}

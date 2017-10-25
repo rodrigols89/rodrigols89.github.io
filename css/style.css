@@ -1,0 +1,223 @@
+/* Base stuff */
+/* Colors variables */
+/* Images variables */
+/* Background variables */
+hr.style-four {
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
+
+hr.style-four:after {
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+}
+
+.section-title {
+  text-align: center;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px #FF0000;
+  color: #000;
+}
+
+/* Componentes and modules */
+/* Colors variables */
+/* Images variables */
+/* Background variables */
+.dropdown-menu {
+  background: rgba(0, 0, 0, 0);
+  padding: 0px;
+  margin: 0px;
+}
+
+.dropdown-item:hover {
+  background: rgba(0, 0, 0, 0);
+}
+.dropdown-item:active {
+  background: #000;
+}
+
+/* Colors variables */
+/* Images variables */
+/* Background variables */
+/* Colors variables */
+/* Images variables */
+/* Background variables */
+nav {
+  text-transform: uppercase;
+  font-size: 10px;
+  text-shadow: 2px 2px 8px #000;
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav {
+  border-bottom: 1px solid #000;
+}
+
+.navbar-brand:active {
+  text-shadow: 2px 2px 8px #fff;
+}
+
+/* Sass utilities/helpers */
+/* Colors variables */
+/* Images variables */
+/* Background variables */
+nav {
+  text-transform: uppercase;
+  font-size: 10px;
+  text-shadow: 2px 2px 8px #000;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Colors variables */
+/* Images variables */
+/* Background variables */
+/* Layout */
+/* Colors variables */
+/* Images variables */
+/* Background variables */
+nav {
+  text-transform: uppercase;
+  font-size: 10px;
+  text-shadow: 2px 2px 8px #000;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* ================ Footer ================ */
+footer {
+  background: #000;
+  padding: 50px 0px 20px 0px;
+  position: relative;
+  /* Background is over the image*/
+}
+
+/* ================ Layout ================ */
+html, body, .cover {
+  height: 100%;
+  overflow-x: hidden;
+  /* Removes the horizontal navigation bar  */
+}
+
+body {
+  background-image: url("../images/background-white.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Colors variables */
+/* Images variables */
+/* Background variables */
+/* Colors variables */
+/* Images variables */
+/* Background variables */
+nav {
+  text-transform: uppercase;
+  font-size: 10px;
+  text-shadow: 2px 2px 8px #000;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* ================ Cover image ================ */
+.cover {
+  display: table;
+  width: 100%;
+  /* 100% width of the background */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ================ Estilo de texto ================ */
+.text-cover {
+  text-align: center;
+  /* Centralized text */
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.name {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3.75em;
+  text-shadow: 2px 2px 8px #000;
+  word-spacing: 7px;
+}
+
+.drigols {
+  color: #000;
+  text-shadow: 2px 2px 8px #000;
+  text-decoration: underline;
+}
+
+.skills {
+  display: block;
+  color: #000;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.75em;
+  font-weight: 900;
+  text-shadow: 0px 0px 2px #000;
+}
+
+/* Colors variables */
+/* Images variables */
+/* Background variables */
+nav {
+  text-transform: uppercase;
+  font-size: 10px;
+  text-shadow: 2px 2px 8px #000;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#portfolio {
+  background: #fff;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+/* Colors variables */
+/* Images variables */
+/* Background variables */
+nav {
+  text-transform: uppercase;
+  font-size: 10px;
+  text-shadow: 2px 2px 8px #000;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#about {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 90px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #000;
+  font-weight: 700;
+  color: #000;
+}
+
+.font-style {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px #FF0000;
+  color: #000;
+}
+
+/* Page-specific style sheets */
+/* Themes */
+/* Vendors and external stylesheets */
+
+/*# sourceMappingURL=style.css.map */

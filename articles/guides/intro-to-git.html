@@ -57,7 +57,12 @@
 
                         <ul>
                             <li class="list-inline"><h6>01 - Primeiro passos</h3></li>
-                            <li class="list-inline"><a href="#introduction">1.0 - Introdução</a></li>
+                            <li class="list-inline"><a href="#introduction">
+								1.0 - Introdução</a>
+								<ul>
+									<li class="list-inline"><a href="#git-reset">1.0.0 - git reset</a></li>
+								</ul>
+							</li>
                             <li class="list-inline"><a href="#estados">1.1 - Estados</a></li>
                             <li class="list-inline"><a href="#setting">1.2 - Configuração inicial</a></li>
                         </ul>
@@ -115,8 +120,22 @@
                                 </li><br>
                                 <li>
                                     <strong>add:</strong> Este comando adiciona um arquivo ou diretório no <strong>repositório local</strong>, na <strong>branch vigente</strong> do mesmo, é como você dissesse pro repositório:<br>
-                                    <strong>"Hey repositório, eu tenho um arquivo/diretório novo aqui e quero que você guarde ele para mim, segura ele, mas não guarda ainda não tá?"</strong><br><br>
-                                    Repare que o repositório não terá ainda teu arquivo, ele apenas saberá que ele existe.<br>
+									<blockquote>
+										"Hey repositório, eu tenho um arquivo/diretório novo aqui e quero que você guarde ele para mim, segura ele, mas não guarda ainda não tá?"</strong><br>
+									</blockquote>
+									<ul id="git-reset">
+										<li>
+											<h6>git reset</h6>
+											Você pode desfazer <strong>git add</strong> antes de um commit com o <strong>git reset</strong>:
+											<br>
+											<blockquote>
+												$ git reset < file > <br>
+											</blockquote>
+										</li>
+									</ul>
+
+									Repare que o repositório não terá ainda teu arquivo, ele apenas saberá que ele existe.
+									
                                     <ul>
                                         <li> adiciona um arquivo/diretório no repositório local;</li>
                                         <li> Na branch vigente;</li>

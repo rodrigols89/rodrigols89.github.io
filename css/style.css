@@ -224,7 +224,6 @@ nav {
 }
 
 .box-articles {
-  border-bottom: 1px solid #000;
   padding-top: 50px;
   padding-bottom: 5px;
 }
@@ -234,13 +233,17 @@ nav {
 }
 .box-articles a {
   font-size: 20px;
-  color: #0000ff;
-}
-.box-articles a:hover {
-  color: #0000ff;
 }
 .box-articles p {
   color: #000;
+}
+
+blockquote {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-color: #8EBBDF;
+  background-color: #D2E4F2;
 }
 
 /* Page-specific style sheets */

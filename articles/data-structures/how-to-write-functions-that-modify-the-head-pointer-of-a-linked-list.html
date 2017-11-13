@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Título da página -->
-        <title>Data Structures</title>
+        <title>Como escrever funções em C que modificam o head de uma Linked List - drigols</title>
 
         <!-- Ícone da página -->
         <link href="../../images/icon.ico" rel="icon">
@@ -39,33 +39,132 @@
             <!-- Quebra de linha para não colar no Navigation -->
             <br><br>
             <!-- Início do container de artigos -->
-            <div class="container">
+            <div class="container box-articles">
 
-                <!-- Início do header -->
+                <!-- Início da linha(.row) header do artigo -->
                 <div class="row">
                     <div class="col-md-12">
-                        <h1 class="section-title">Data Structures</h1>
-                        <p class="drigols">
-                            Articles about <u>Data Structures</u>, analyses and their implementations.
-                        </p>
+						<h1>Data Structures - Linked List</h1>
+                        <img class="img-fluid mx-auto d-block" src="images/how-to-write-functions-that-modify-the-head-pointer-of-a-linked-list.html.gif" alt="git-logo">                    
                     </div>
                 </div>
-                <!-- /Fim do header -->
+                <!-- /Fim da linha(.row) header do artigo -->
                 <br>
 
-                <!-- x -->
-                <div class="row box-articles">
-                        <div class="col-md-12">
-                            <h1>Linked List</h1>
-                            <a class="text-right" href="how-to-write-functions-that-modify-the-head-pointer-of-a-linked-list.html">
-                                Como escrever funções em C que modificam o head de uma Linked List
-                            </a>
-                            <p class="text-right">November 12, 2017</p>
-                        </div>
-                </div>
-                <!-- /x -->
-                <br><br><br>
+                <!-- Início da linha(.row) conteúdo do artigo  -->
+                <div class="row">
+                    <!-- início do col-md-12 -->
+                    <div class="col-md-12">
 
+						<p>
+							Considere uma representação simples de uma Linked List(Lista vinculada). As funções que operam em tais Linked List podem ser dividias em duas categorias:
+						</p>
+
+						<ul>
+							<li><a href="#n-modify">Funções que <strong>não modificam</strong> o head da Linked List</a></li>
+							<li><a href="#modify">Funções que <strong>modificam</strong> o head da Linked List</a></li>
+						</ul>
+
+						<!-- Início da section de funções que NÃO MODIFICAM o head -->
+						<div id="n-modify">
+							<strong>1) Funções que não modificam o ponteiro head:</strong>
+							<br>
+							<p>
+								Exemplos de funções que não modificam o head de uma Linked List:
+							</p>
+							<ol>
+								<li>Exibir os dados de uma Linked List;</li>
+								<li>Atualizar os dados de uma Linked List;</li>
+								<li>Outras operações que acessam dados...</li>
+							</ol>
+							<p>
+								É geralmente fácil de decidir o protótipo de funções desta categoria. Nós sempre podemos passar o head da Linked List como argumento e atravessar/atualizar a Linked List.
+							</p>
+							<p>
+								Por exemplo, a seguinte função que adiciona um valor inteiro "x" a cada membro de cada Node:
+							</p>
+							<blockquote>
+								void addXtoList(struct Node *node, int x) <br>
+								{ <br>
+								&emsp;&emsp; while(node != NULL) <br>
+								&emsp;&emsp; { <br>
+								&emsp;&emsp;&emsp;&emsp; node->data = node->data + x; <br>
+								&emsp;&emsp;&emsp;&emsp; node = node->next; <br>
+								&emsp; &emsp; } <br>
+								} 
+							</blockquote>
+						</div>
+						<!-- /Fim da section de funções que NÃO MODIFICAM o head -->
+
+						<!-- Início da section de funções que MODIFICAM o head -->
+						<div id="modify">
+							<strong>2) Funções que modificam o ponteiro head</strong>
+							<br>
+							<p>
+								Exemplos de funções que modificam o head de uma Linked List são:
+							</p>
+							<ol>
+								<li>Inserindo um novo Node no início da Linked List <strong>(O ponteiro head é sempre modificado nesta função)</strong>;</li>
+								<li>Inserindo um novo Node no final <strong>(O ponteiro head é modificado somente quando o primeiro Node está sendo inserido)</strong>;</li>
+								<li>Excluindo um determinado Node <strong>(O ponteiro head é modificado quando o Node excluído é o primeiro Node).</strong></li>
+							</ol>
+							<p>
+								Pode haver diferentes maneiras de atualizar o head de uma Linked List. Porém, vou abordar apenas a maneira que eu acho mais interessante.
+							</p>
+							<p>
+								Dada uma Linked List, escreva uma função <strong>deleteFirst()</strong> que exclui o primeiro Node de uma determinada Linked List.
+							</p>
+							<blockquote>
+								<strong>Input:</strong> <br>
+								1 -> 2 -> 3 -> 4 <br>
+								<strong>Output:</strong> <br>
+								2 -> 3 -> 4 <br>
+							</blockquote>
+							<p>
+								O algoritmo para resolver o problem é um simples processo de 3 passos:
+							</p>
+							<ol>
+								<li>Armazene o ponteiro do head atual;</li>
+								<li>Mude o ponteiro head para apontar para o próximo Node <strong>(Ou seja, o head vai receber o valor do seu next)</strong>;</li>
+								<li>Apague o head anteior.</li>
+							</ol>
+							<p>
+								<strong>Use ponteiro para ponteiro (Pointer to Pointer):</strong>
+								<br>
+								Esta abordagem segue a regra C simples: se você quiser modificar a variável local de uma função dentro de outra função, passe o ponteiro para essa variável.
+							</p>
+							<p>
+								Então, podemos passar o ponteiro para o ponteiro principal <strong>(pointer-to-pointer)</strong> para modificar o head na nossa função <strong>deleteFirst()</strong>.
+							</p>
+							<blockquote>
+								void deleteFirst(struct **head_ref) <br>
+								{ <br>
+								&emsp;&emsp; if(*head != NULL) <br>
+								&emsp;&emsp; { <br>
+								&emsp;&emsp;&emsp;&emsp; // Step 1 - Store the old value fo pointer to head pointer. <br>
+								&emsp;&emsp;&emsp;&emsp; struc Node *temp = *head_ref; <br>
+										<br>
+								&emsp;&emsp;&emsp;&emsp; // Step 2 - Change head pointer to point to next Node. <br>
+								&emsp;&emsp;&emsp;&emsp; *head_ref = (*head_ref) -> next; <br>
+										<br>
+								&emsp;&emsp;&emsp;&emsp; // Step 3 - Delete memory allocated for the previous head Node. <br>
+								&emsp;&emsp;&emsp;&emsp; free(temp); <br>
+								&emsp;&emsp; } <br>
+								}
+							</blockquote>
+						</div>
+						<!-- /Fim da section de funções que MODIFICAM o head -->
+
+						<br>
+						<div>
+							<h6>Referências:</h6>
+							http://www.geeksforgeeks.org/how-to-write-functions-that-modify-the-head-pointer-of-a-linked-list/
+						</div>
+						<br> <br>
+                    </div>
+                    <!-- início do col-md-12 -->
+                </div>
+                <!-- /Fim da linha(.row) conteúdo do artigo -->
             </div>
             <!-- /Fim do container de artigos -->
 
@@ -183,7 +282,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
             crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
-            crossorigin="anonymous"></script>
+			crossorigin="anonymous"></script>
     </body>
     <!-- /Fim do corpo(body) HTML5 -->
 </html>

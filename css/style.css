@@ -134,9 +134,6 @@ nav {
   margin-left: auto;
   margin-right: auto;
 }
-.cover img {
-  margin-top: 80px;
-}
 
 /* ================ Estilo de texto ================ */
 .text-cover {
@@ -204,7 +201,7 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   padding-top: 90px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   border-bottom: 1px solid #000;
   color: #000;
 }

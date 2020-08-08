@@ -2,7 +2,7 @@
 
 [![License MIT](res/license-MIT-blue.svg)](LICENSE.md)
 
-> DrigoLS - Rodrigo Leite da Silva
+> **DrigoLS** - Ro**drigo** **L**eite da **S**ilva
 
 ---
 

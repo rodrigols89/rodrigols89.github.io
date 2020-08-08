@@ -1,5 +1,5 @@
 {
-  "name": "Rodrigo Leite",
+  "name": "drigols",
   "version": "3.0.0",
   "description": "My page",
   "main": "index.js",
@@ -19,5 +19,5 @@
   "bugs": {
     "url": "https://github.com/drigols/drigols.github.io/issues"
   },
-  "homepage": "https://rodrigoleite89.github.io/"
+  "homepage": "https://drigols.github.io/"
 }

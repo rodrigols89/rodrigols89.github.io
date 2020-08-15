@@ -1,14 +1,14 @@
-@import '../../css/sass/helpers/variables';
-
 nav {
-  border-bottom: 1px solid #000;
   text-transform: uppercase;
   font-size: 10px;
   text-shadow: 2px 2px 8px #000;
   font-family: "Times New Roman", Times, serif;
-  background-color: #e3f2fd;
 }
 
-.navbar-brand:active{
+nav {
+  border-bottom: 1px solid #000;
+}
+
+.navbar-brand:active {
   text-shadow: 2px 2px 8px #fff;
 }

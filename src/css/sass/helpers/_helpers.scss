@@ -1,0 +1,63 @@
+hr.style-four {
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
+
+hr.style-four:after {
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+}
+
+.section-title {
+  text-align: center;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 2px 2px 8px #fff;
+  color: #000;
+}
+
+.cover {
+  display: table;
+  width: 100%;
+  /* 100% width of the background */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-cover {
+  text-align: center;
+  /* Centralized text */
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.name {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3.75em;
+  text-shadow: 2px 2px 8px #000;
+  word-spacing: 7px;
+}
+
+.drigols {
+  color: #000;
+}
+
+.skills {
+  display: block;
+  color: #000;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.75em;
+  font-weight: 900;
+  text-shadow: 0px 0px 2px #000;
+}

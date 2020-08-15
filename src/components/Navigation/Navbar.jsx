@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './Navbar.scss';
+
 const Navbar = () => {
   return (
     <nav className="navbar sticky-top fixed-top navbar-expand-lg navbar-light">

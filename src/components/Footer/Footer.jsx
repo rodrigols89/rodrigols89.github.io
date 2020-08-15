@@ -3,12 +3,12 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-      <div class="container">
-        <div class="row"> 
+      <div className="container">
+        <div className="row"> 
 
-          <div class="footer-col col-md-4">
+          <div className="footer-col col-md-4">
             <h3>Location</h3>
-            <hr class="style-four"/>            
+            <hr className="style-four"/>            
             <address>
               <strong>Rodrigo Leite - Software Engineer</strong><br/>
               Campina Grande - PB, CEP: 58401-040<br/>
@@ -18,27 +18,27 @@ const Footer = () => {
             </address>
           </div>
 
-          <div class="footer-col col-md-8">
-            <h3 class="text-center">Around the Web</h3>
-            <hr class="style-four"/>
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                  <a href="https://github.com/drigols" class="btn-social btn-outline" target="_blank" title="GitHub"><span class="sr-only">GitHub</span><i class="fa fa-fw fa-github"></i></a>
+          <div className="footer-col col-md-8">
+            <h3 className="text-center">Around the Web</h3>
+            <hr className="style-four"/>
+            <ul className="list-inline">
+              <li className="list-inline-item">
+                  <a href="https://github.com/drigols" className="btn-social btn-outline" rel="noopener" title="GitHub"><span className="sr-only">GitHub</span><i className="fa fa-fw fa-github"></i></a>
               </li>
-              <li class="list-inline-item">
-                      <a href="https://stackoverflow.com/users/8047904/drigols" class="btn-social btn-outline" target="_blank" title="StackOverflow"><span class="sr-only">StackOverflow</span><i class="fa fa-fw fa-stack-overflow"></i></a>
+              <li className="list-inline-item">
+                      <a href="https://stackoverflow.com/users/8047904/drigols" className="btn-social btn-outline" rel="noopener" title="StackOverflow"><span className="sr-only">StackOverflow</span><i className="fa fa-fw fa-stack-overflow"></i></a>
               </li>
-              <li class="list-inline-item">
-                  <a href="https://www.linkedin.com/in/drigols" class="btn-social btn-outline" target="_blank" title="Linkedin"><span class="sr-only">Linkedin</span><i class="fa fa-fw fa-linkedin"></i></a>
+              <li className="list-inline-item">
+                  <a href="https://www.linkedin.com/in/drigols" className="btn-social btn-outline" rel="noopener" title="Linkedin"><span className="sr-only">Linkedin</span><i className="fa fa-fw fa-linkedin"></i></a>
               </li>
-              <li class="list-inline-item">
-                  <a href="https://twitter.com/drigols" class="btn-social btn-outline" target="_blank" title="Twitter"><span class="sr-only">Twitter</span><i class="fa fa-fw fa-twitter"></i></a>
+              <li className="list-inline-item">
+                  <a href="https://twitter.com/drigols" className="btn-social btn-outline" rel="noopener" title="Twitter"><span className="sr-only">Twitter</span><i className="fa fa-fw fa-twitter"></i></a>
               </li>
-              <li class="list-inline-item">
-                      <a href="https://www.instagram.com/drigols" class="btn-social btn-outline" target="_blank" title="Instagram"><span class="sr-only">Instagram</span><i class="fa fa-fw fa-instagram"></i></a>
+              <li className="list-inline-item">
+                      <a href="https://www.instagram.com/drigols" className="btn-social btn-outline" rel="noopener" title="Instagram"><span className="sr-only">Instagram</span><i className="fa fa-fw fa-instagram"></i></a>
               </li>
-              <li class="list-inline-item">
-                  <a href="https://www.facebook.com/drigols" class="btn-social btn-outline" target="_blank" title="Facebook"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
+              <li className="list-inline-item">
+                  <a href="https://www.facebook.com/drigols" className="btn-social btn-outline" rel="noopener" title="Facebook"><span className="sr-only">Facebook</span><i className="fa fa-fw fa-facebook"></i></a>
               </li>
             </ul>
           </div>

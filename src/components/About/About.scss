@@ -1,0 +1,12 @@
+@import '../../css/sass/helpers/variables';
+
+#about {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 90px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid $black;
+  color: $black;
+}

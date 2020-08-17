@@ -13,12 +13,6 @@ const Navbar = () => {
           <li className="nav-item">
             <a className="navbar-brand" href="#portfolio">Portfolio</a>
           </li>
-          <li className="nav-item">
-            <a className="navbar-brand" href="#open-sources">Open-Sources</a>
-          </li>
-          <li className="nav-item">
-            <a className="navbar-brand" href="#medium">Medium</a>
-          </li>
         </ul>
       </div>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"

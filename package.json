@@ -2,7 +2,7 @@
   "name": "digital-portfolio",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://drigols.github.io/page",
+  "homepage": "https://drigols.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",

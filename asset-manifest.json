@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/page/static/css/main.8c35f789.chunk.css",
-    "main.js": "/page/static/js/main.666811a9.chunk.js",
-    "main.js.map": "/page/static/js/main.666811a9.chunk.js.map",
-    "runtime-main.js": "/page/static/js/runtime-main.37cf2100.js",
-    "runtime-main.js.map": "/page/static/js/runtime-main.37cf2100.js.map",
-    "static/js/2.bf5d85e4.chunk.js": "/page/static/js/2.bf5d85e4.chunk.js",
-    "static/js/2.bf5d85e4.chunk.js.map": "/page/static/js/2.bf5d85e4.chunk.js.map",
-    "index.html": "/page/index.html",
-    "precache-manifest.88b069906f2672bfe062a94813e55eee.js": "/page/precache-manifest.88b069906f2672bfe062a94813e55eee.js",
-    "service-worker.js": "/page/service-worker.js",
-    "static/css/main.8c35f789.chunk.css.map": "/page/static/css/main.8c35f789.chunk.css.map",
-    "static/js/2.bf5d85e4.chunk.js.LICENSE.txt": "/page/static/js/2.bf5d85e4.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/page/static/media/background-white.962ec14d.jpg",
-    "static/media/font-awesome.min.css": "/page/static/media/fontawesome-webfont.e6cf7c6e.woff2",
-    "static/media/studies-logo.gif": "/page/static/media/studies-logo.271bc2e2.gif"
+    "main.css": "/static/css/main.f47491bb.chunk.css",
+    "main.js": "/static/js/main.666811a9.chunk.js",
+    "main.js.map": "/static/js/main.666811a9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0570c957.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0570c957.js.map",
+    "static/js/2.bf5d85e4.chunk.js": "/static/js/2.bf5d85e4.chunk.js",
+    "static/js/2.bf5d85e4.chunk.js.map": "/static/js/2.bf5d85e4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.03165aac14febaae7a32963919794fea.js": "/precache-manifest.03165aac14febaae7a32963919794fea.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.f47491bb.chunk.css.map": "/static/css/main.f47491bb.chunk.css.map",
+    "static/js/2.bf5d85e4.chunk.js.LICENSE.txt": "/static/js/2.bf5d85e4.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/background-white.962ec14d.jpg",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.e6cf7c6e.woff2",
+    "static/media/studies-logo.gif": "/static/media/studies-logo.271bc2e2.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.37cf2100.js",
+    "static/js/runtime-main.0570c957.js",
     "static/js/2.bf5d85e4.chunk.js",
-    "static/css/main.8c35f789.chunk.css",
+    "static/css/main.f47491bb.chunk.css",
     "static/js/main.666811a9.chunk.js"
   ]
 }

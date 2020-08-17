@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/drigols.github.io/static/css/main.ce54a950.chunk.css",
-    "main.js": "/drigols.github.io/static/js/main.63455d7b.chunk.js",
-    "main.js.map": "/drigols.github.io/static/js/main.63455d7b.chunk.js.map",
-    "runtime-main.js": "/drigols.github.io/static/js/runtime-main.4a9c40c3.js",
-    "runtime-main.js.map": "/drigols.github.io/static/js/runtime-main.4a9c40c3.js.map",
-    "static/js/2.76bc1db7.chunk.js": "/drigols.github.io/static/js/2.76bc1db7.chunk.js",
-    "static/js/2.76bc1db7.chunk.js.map": "/drigols.github.io/static/js/2.76bc1db7.chunk.js.map",
-    "index.html": "/drigols.github.io/index.html",
-    "precache-manifest.17e2bb36321cd0ba48acc5b5a9f7a620.js": "/drigols.github.io/precache-manifest.17e2bb36321cd0ba48acc5b5a9f7a620.js",
-    "service-worker.js": "/drigols.github.io/service-worker.js",
-    "static/css/main.ce54a950.chunk.css.map": "/drigols.github.io/static/css/main.ce54a950.chunk.css.map",
-    "static/js/2.76bc1db7.chunk.js.LICENSE.txt": "/drigols.github.io/static/js/2.76bc1db7.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/drigols.github.io/static/media/background-white.962ec14d.jpg",
-    "static/media/font-awesome.min.css": "/drigols.github.io/static/media/fontawesome-webfont.e6cf7c6e.woff2",
-    "static/media/studies-logo.gif": "/drigols.github.io/static/media/studies-logo.271bc2e2.gif"
+    "main.css": "/page/static/css/main.8c35f789.chunk.css",
+    "main.js": "/page/static/js/main.666811a9.chunk.js",
+    "main.js.map": "/page/static/js/main.666811a9.chunk.js.map",
+    "runtime-main.js": "/page/static/js/runtime-main.37cf2100.js",
+    "runtime-main.js.map": "/page/static/js/runtime-main.37cf2100.js.map",
+    "static/js/2.bf5d85e4.chunk.js": "/page/static/js/2.bf5d85e4.chunk.js",
+    "static/js/2.bf5d85e4.chunk.js.map": "/page/static/js/2.bf5d85e4.chunk.js.map",
+    "index.html": "/page/index.html",
+    "precache-manifest.88b069906f2672bfe062a94813e55eee.js": "/page/precache-manifest.88b069906f2672bfe062a94813e55eee.js",
+    "service-worker.js": "/page/service-worker.js",
+    "static/css/main.8c35f789.chunk.css.map": "/page/static/css/main.8c35f789.chunk.css.map",
+    "static/js/2.bf5d85e4.chunk.js.LICENSE.txt": "/page/static/js/2.bf5d85e4.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/page/static/media/background-white.962ec14d.jpg",
+    "static/media/font-awesome.min.css": "/page/static/media/fontawesome-webfont.e6cf7c6e.woff2",
+    "static/media/studies-logo.gif": "/page/static/media/studies-logo.271bc2e2.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.4a9c40c3.js",
-    "static/js/2.76bc1db7.chunk.js",
-    "static/css/main.ce54a950.chunk.css",
-    "static/js/main.63455d7b.chunk.js"
+    "static/js/runtime-main.37cf2100.js",
+    "static/js/2.bf5d85e4.chunk.js",
+    "static/css/main.8c35f789.chunk.css",
+    "static/js/main.666811a9.chunk.js"
   ]
 }

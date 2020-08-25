@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Navbar.scss';
 
-const Navbar = () => {
+const MainNavbar = () => {
   return (
     <nav className="navbar sticky-top fixed-top navbar-expand-lg navbar-light">
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
@@ -23,4 +23,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar;
+export default MainNavbar;

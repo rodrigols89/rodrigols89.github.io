@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-import Studies from './projects/studies/Studies';
+import logo from './images/studies-logo.gif';
 
 import './Portfolio.scss';
 
@@ -17,7 +18,19 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <Studies />
+          <Link to="/studies-project">
+            <div className="col-sm-4 portfolio-item">
+              <div className="portfolio-link">
+                <div className="caption">
+                  <div className="caption-content">
+                    <i className="fa fa-search-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src={logo} className="img-fluid img-thumbnail" alt="img"/>              
+              </div>
+            </div>
+          </Link>
+        
         </div>
       </section>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Home from './pages/Home/Home';
+import Routes from './routes';
 
 import './vendors/font-awesome/css/font-awesome.min.css';
 import './vendors/freelancer/freelancer.min.css';
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <React.Fragment>
-        <Home />
+        <Routes />
       </React.Fragment>
     </div>
   );

@@ -4,7 +4,7 @@ import './Navbar.scss';
 
 const SecondNavbar = () => {
   return (
-    <nav className="navbar sticky-top fixed-top navbar-expand-lg navbar-light">
+    <nav className="navbar sticky-top fixed-top navbar-expand-lg navbar-light nav-two">
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav">
           <li className="nav-item">

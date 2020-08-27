@@ -35,7 +35,7 @@ const StudiesProject = () => {
                   <li>Others...</li>
                 </ul>
               </ul>
-              <a href="https://github.com/drigols/studies" rel="noopener"><span className="section-title"> → [Project in GitHub]</span></a><br/><br/>
+              <a href="https://github.com/drigols/estudos" rel="noopener"><span className="section-title"> → [Project in GitHub]</span></a><br/><br/>
             </div>
             <ul className="list-inline item-details">
               <li>

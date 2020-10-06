@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f858a995e9d2ee68fd69b40a01760113",
+    "revision": "1eb53f631ebf0c75690bd51383c940df",
     "url": "/index.html"
   },
   {
-    "revision": "03a45345d4be17b9a63e",
-    "url": "/static/css/main.ba83a931.chunk.css"
+    "revision": "1cc144f3088ab1e39a88",
+    "url": "/static/css/main.28e7b27f.chunk.css"
   },
   {
-    "revision": "d0092879aa872fdd7d15",
-    "url": "/static/js/2.58967acf.chunk.js"
+    "revision": "fab9ca425d7a560f2273",
+    "url": "/static/js/2.be7fb0a1.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.58967acf.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.be7fb0a1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "03a45345d4be17b9a63e",
-    "url": "/static/js/main.a2db96aa.chunk.js"
+    "revision": "1cc144f3088ab1e39a88",
+    "url": "/static/js/main.aeda19db.chunk.js"
   },
   {
     "revision": "33445b0c149a7d6e90b0",
@@ -48,8 +48,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fontawesome-webfont.e6cf7c6e.woff2"
   },
   {
-    "revision": "271bc2e22cd45b91bfa770d0a8e8d53a",
-    "url": "/static/media/studies-logo.271bc2e2.gif"
+    "revision": "4a66e4461018b4a3c087e89995e1778a",
+    "url": "/static/media/math-logo.4a66e446.gif"
+  },
+  {
+    "revision": "71ea963755b9613674a1de5271eb45f9",
+    "url": "/static/media/ml-logo.71ea9637.gif"
+  },
+  {
+    "revision": "6d1cbf2999655901ed01952135a88b89",
+    "url": "/static/media/studies-project-logo.6d1cbf29.gif"
   },
   {
     "revision": "dcf2dae4d65d19a314d87705e2ac91cc",

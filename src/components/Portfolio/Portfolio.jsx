@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import logo from './images/studies-logo.gif';
+import mllogo from './images/ml-logo.gif';
+import studieslogo from './images/studies-project-logo.gif';
+import mathlogo from './images/math-logo.gif';
 
 import './Portfolio.scss';
 
@@ -18,18 +20,48 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <Link to="/studies-project">
-            <div className="col-sm-4 portfolio-item">
-              <div className="portfolio-link">
-                <div className="caption">
-                  <div className="caption-content">
-                    <i className="fa fa-search-plus fa-3x"></i>
+          <div className="row">
+
+            <Link to="/ai-algorithms" className="center">
+              <div className="portfolio-item">
+                <div className="portfolio-link">
+                  <div className="caption">
+                    <div className="caption-content">
+                      <i className="fa fa-search-plus fa-3x"></i>
+                    </div>
                   </div>
+                  <img src={mllogo} className="img-fluid img-thumbnail center" alt="img"/>              
                 </div>
-                <img src={logo} className="img-fluid img-thumbnail" alt="img"/>              
               </div>
-            </div>
-          </Link>
+            </Link>
+
+            <Link to="/math-project" className="center">
+              <div className="portfolio-item">
+                <div className="portfolio-link">
+                  <div className="caption">
+                    <div className="caption-content">
+                      <i className="fa fa-search-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img src={mathlogo} className="img-fluid img-thumbnail center" alt="img"/>              
+                </div>
+              </div>
+            </Link>
+
+            <Link to="/studies-project" className="center">
+              <div className="portfolio-item">
+                <div className="portfolio-link">
+                  <div className="caption">
+                    <div className="caption-content">
+                      <i className="fa fa-search-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img src={studieslogo} className="img-fluid img-thumbnail center" alt="img"/>              
+                </div>
+              </div>
+            </Link>
+
+          </div>
         
         </div>
       </section>

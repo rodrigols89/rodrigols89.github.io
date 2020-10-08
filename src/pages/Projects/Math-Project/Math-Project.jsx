@@ -39,9 +39,6 @@ const MathProject = () => {
                   <li>Useful Libraries (Like: NumPy, Pandas, Matplotlib, And so on...)</li>
                 </ul>
               </ul>
-              <strong>NOTE:</strong><br/>
-              Many of my studies are in Brazilian Portuguese... <a href="https://github.com/drigols/studies/tree/master-pt-br/modules/math"><strong>You can see here</strong></a>.
-              <br/><br/>
               <a href="https://github.com/drigols/math" rel="noopener"><span className="section-title"> → [Project in GitHub]</span></a><br/><br/>
             </div>
             <ul className="list-inline item-details">

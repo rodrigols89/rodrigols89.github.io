@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import mllogo from './images/ml-logo.gif';
 import studieslogo from './images/studies-project-logo.gif';
+import mathlogo from './images/math-logo.gif';
 
 import './Portfolio.scss';
 
@@ -19,6 +21,32 @@ const Portfolio = () => {
           </div>
 
           <div className="row">
+
+            <Link to="/ai-algorithms" className="center">
+              <div className="portfolio-item">
+                <div className="portfolio-link">
+                  <div className="caption">
+                    <div className="caption-content">
+                      <i className="fa fa-search-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img src={mllogo} className="img-fluid img-thumbnail center" alt="img"/>              
+                </div>
+              </div>
+            </Link>
+
+            <Link to="/math-project" className="center">
+              <div className="portfolio-item">
+                <div className="portfolio-link">
+                  <div className="caption">
+                    <div className="caption-content">
+                      <i className="fa fa-search-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img src={mathlogo} className="img-fluid img-thumbnail center" alt="img"/>              
+                </div>
+              </div>
+            </Link>
 
             <Link to="/studies-project" className="center">
               <div className="portfolio-item">

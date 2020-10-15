@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "15074339270341f28ed46a26edd0c358",
+    "revision": "8515591b8506be5e41de28f7676941ee",
     "url": "/index.html"
   },
   {
-    "revision": "c9f1c107ccff101853d5",
+    "revision": "ce9c0249379fbecfa6e2",
     "url": "/static/css/main.28e7b27f.chunk.css"
   },
   {
-    "revision": "45c43ec338a4841d57af",
-    "url": "/static/js/2.699ef238.chunk.js"
+    "revision": "7a628b5a85cd3f16d563",
+    "url": "/static/js/2.9715b31f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.699ef238.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.9715b31f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c9f1c107ccff101853d5",
-    "url": "/static/js/main.5654fa8e.chunk.js"
+    "revision": "ce9c0249379fbecfa6e2",
+    "url": "/static/js/main.4dd6df63.chunk.js"
   },
   {
     "revision": "33445b0c149a7d6e90b0",
@@ -54,10 +54,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "71ea963755b9613674a1de5271eb45f9",
     "url": "/static/media/ml-logo.71ea9637.gif"
-  },
-  {
-    "revision": "6d1cbf2999655901ed01952135a88b89",
-    "url": "/static/media/studies-project-logo.6d1cbf29.gif"
   },
   {
     "revision": "dcf2dae4d65d19a314d87705e2ac91cc",

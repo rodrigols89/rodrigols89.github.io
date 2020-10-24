@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import studieslogo from './images/studies-project-logo.gif';
+import codingSamplesLogo from './images/coding-samples.gif';
 
 import './Portfolio.scss';
 
@@ -20,7 +20,7 @@ const Portfolio = () => {
 
           <div className="row">
 
-            <Link to="/studies-project" className="center">
+            <Link to="/coding-samples" className="center">
               <div className="portfolio-item">
                 <div className="portfolio-link">
                   <div className="caption">
@@ -28,7 +28,7 @@ const Portfolio = () => {
                       <i className="fa fa-search-plus fa-3x"></i>
                     </div>
                   </div>
-                  <img src={studieslogo} className="img-fluid img-thumbnail center" alt="img"/>
+                  <img src={codingSamplesLogo} className="img-fluid img-thumbnail center" alt="img"/>
                 </div>
               </div>
             </Link>

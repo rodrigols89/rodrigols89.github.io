@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "db6ac6c1b2c15c9e806bd1edacd823e1",
+    "revision": "37f987d27f2ac07484f2b2ec68a1c205",
     "url": "/index.html"
   },
   {
-    "revision": "8d96395671f4de67bde9",
+    "revision": "7551894607d7c568b236",
     "url": "/static/css/main.5a633152.chunk.css"
   },
   {
-    "revision": "d0092879aa872fdd7d15",
-    "url": "/static/js/2.58967acf.chunk.js"
+    "revision": "7e18ed97b349affe092f",
+    "url": "/static/js/2.adb0448d.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/static/js/2.58967acf.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.adb0448d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8d96395671f4de67bde9",
-    "url": "/static/js/main.606ffe40.chunk.js"
+    "revision": "7551894607d7c568b236",
+    "url": "/static/js/main.6d7402a3.chunk.js"
   },
   {
     "revision": "33445b0c149a7d6e90b0",
@@ -46,10 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e6cf7c6ec7c2d6f670ae9d762604cb0b",
     "url": "/static/media/fontawesome-webfont.e6cf7c6e.woff2"
-  },
-  {
-    "revision": "6d1cbf2999655901ed01952135a88b89",
-    "url": "/static/media/studies-project-logo.6d1cbf29.gif"
   },
   {
     "revision": "dcf2dae4d65d19a314d87705e2ac91cc",

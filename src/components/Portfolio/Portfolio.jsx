@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import logo from './images/ai-algorithms-logo.jpg';
+import AILogo from './images/ai-algorithms-logo.jpg';
+import MathLogo from './images/math-logo.gif';
 
 import './Portfolio.scss';
 
@@ -13,7 +14,7 @@ const Portfolio = () => {
 
           <div className="row">
             <div className="col-lg-12 text-center">
-              <h2 className="section-title">Personal Projects</h2>
+              <h2 className="section-title">Studies Projects</h2>
               <hr/>
             </div>
           </div>
@@ -28,7 +29,20 @@ const Portfolio = () => {
                       <i className="fa fa-search-plus fa-3x"></i>
                     </div>
                   </div>
-                  <img src={logo} className="img-fluid img-thumbnail center" alt="img"/>
+                  <img src={AILogo} className="img-fluid img-thumbnail center" alt="img"/>
+                </div>
+              </div>
+            </Link>
+
+            <Link to="math" className="center">
+              <div className="portfolio-item">
+                <div className="portfolio-link">
+                  <div className="caption">
+                    <div className="caption-content">
+                      <i className="fa fa-search-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img src={MathLogo} className="img-fluid img-thumbnail center" alt="img"/>
                 </div>
               </div>
             </Link>

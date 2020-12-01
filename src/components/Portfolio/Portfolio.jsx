@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import AILogo from './images/ai-algorithms-logo.jpg';	
+import MathLogo from './images/math-logo.gif';
+
 import './Portfolio.scss';
 
 const Portfolio = () => {
@@ -18,7 +21,7 @@ const Portfolio = () => {
 
           <div className="row">
 
-            <Link to="" className="center">
+            <Link to="ai-algorithms" className="center">
               <div className="portfolio-item">
                 <div className="portfolio-link">
                   <div className="caption">
@@ -26,7 +29,20 @@ const Portfolio = () => {
                       <i className="fa fa-search-plus fa-3x"></i>
                     </div>
                   </div>
-                  <img src="https://image.freepik.com/free-photo/coming-soon-neon-sign-purple-blue-glow-neon-text-brick-wall-lit-by-neon-lamps-night-lighting-wall_124343-10.jpg" className="img-fluid img-thumbnail center" alt="img"/>
+                  <img src={AILogo} className="img-fluid img-thumbnail center" alt="img"/>
+                </div>
+              </div>
+            </Link>
+
+            <Link to="math" className="center">
+              <div className="portfolio-item">
+                <div className="portfolio-link">
+                  <div className="caption">
+                    <div className="caption-content">
+                      <i className="fa fa-search-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img src={MathLogo} className="img-fluid img-thumbnail center" alt="img"/>
                 </div>
               </div>
             </Link>

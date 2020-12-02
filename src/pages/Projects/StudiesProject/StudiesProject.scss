@@ -1,0 +1,19 @@
+@import '../../../css/sass/helpers/variables';
+
+.project {
+  background: $white;
+  border-top: 1px solid $black;
+  border-bottom: 1px solid $black;
+  padding-top: 90px;
+  padding-bottom: 50px;
+  
+}
+
+hr {
+  border: 1px solid #000;
+}
+
+.text-project {
+  font-size: 20px;
+  padding-top: 30px;
+}

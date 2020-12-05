@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import StudiesLogo from './images/studies-project-logo.gif';	
+import ailogo from './images/ai-algorithms-logo.jpg';
+import mathlogo from './images/math-logo.gif';
 
 import './Portfolio.scss';
 
@@ -20,7 +21,7 @@ const Portfolio = () => {
 
           <div className="row">
 
-            <Link to="studies-project" className="center">
+            <Link to="ai-algorithms" className="center">
               <div className="portfolio-item">
                 <div className="portfolio-link">
                   <div className="caption">
@@ -28,7 +29,20 @@ const Portfolio = () => {
                       <i className="fa fa-search-plus fa-3x"></i>
                     </div>
                   </div>
-                  <img src={StudiesLogo} className="img-fluid img-thumbnail center" alt="img"/>
+                  <img src={ailogo} className="img-fluid img-thumbnail center" alt="img"/>
+                </div>
+              </div>
+            </Link>
+
+            <Link to="math" className="center">
+              <div className="portfolio-item">
+                <div className="portfolio-link">
+                  <div className="caption">
+                    <div className="caption-content">
+                      <i className="fa fa-search-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img src={mathlogo} className="img-fluid img-thumbnail center" alt="img"/>
                 </div>
               </div>
             </Link>

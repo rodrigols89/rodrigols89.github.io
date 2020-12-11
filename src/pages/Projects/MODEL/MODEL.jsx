@@ -3,11 +3,9 @@ import React from 'react';
 import SecondNavbar from '../../../components/Navigation/SecondNavbar';
 import Footer from '../../../components/Footer/Footer';
 
-import logo from './images/math-logo.gif';
+import './MODEL.scss';
 
-import './Math.scss';
-
-const Math = () => {
+const MODEL = () => {
   return (
     <div>
       <SecondNavbar />
@@ -16,38 +14,36 @@ const Math = () => {
         <div className="row modal-body">
 
           <div className="col-sm-6">
-            <h2 className="text-center">Math</h2>
+            <h2 className="text-center">A.I - Algorithms</h2>
             <hr className="star-primary"/>
             <img src={logo} className="img-fluid img-thumbnail center" alt="img"/>
           </div>
 
           <div className="col-sm-6 text-project">
             <div>
-            My theoretical and practical studies related to <strong>mathematics</strong>:<br/>
+              My <i>theoretical</i> and <i>practical</i> studies on <strong>Artificial Intelligence Algorithms</strong>:<br/>
               <ul>
                 <li><strong>Topics:</strong></li>
                 <ul>
-                  <li>Algebra</li>
-                  <li>Statistics & Probability</li>
-                  <li>Precalculus</li>
-                  <li>Linear Algebra</li>
-                  <li>Differential Calculus</li>
-                  <li>Differential Equations</li>
-                  <li>Multivariable Calculus</li>
-                  <li>Useful Libraries (NumPy, Pandas, Matplotlib)</li>
+                  <li>Machine Learning</li>
+                  <li>Neural Nets & Deep Learning</li>
+                  <li>Reinforcement Learning</li>
+                  <li>Deep Reinforcement Learning</li>
+                  <li>Computer Vision</li>
+                  <li>Tips and Tricks</li>
                   <li>Others...</li>
                 </ul>
               </ul>
-              <a href="https://github.com/drigols/math" rel="noopener"><span className="section-title"> → [Project in GitHub]</span></a><br/><br/>
+              <a href="https://github.com/drigols/ai-algorithms" rel="noopener"><span className="section-title"> → [Project in GitHub]</span></a><br/><br/>
               <strong>NOTE:</strong><br/>
-              Many of my studies are in Brazilian Portuguese... <a href="https://github.com/drigols/math/tree/master-pt-br"><strong>You can see here</strong></a>.<br/><br/>
+              Many of my studies are in Brazilian Portuguese... <a href="https://github.com/drigols/ai-algorithms/tree/master-pt-br"><strong>You can see here</strong></a>.<br/><br/>
             </div>
             <ul className="list-inline item-details">
               <li>
                 Client: <strong>Myself</strong>
               </li>
               <li>
-                Date: <strong>November 2020 to the present day</strong>
+                Date: <strong>October 2020 to the present day</strong>
               </li>
               <li>
                 Service: <strong>Studies</strong>
@@ -64,4 +60,4 @@ const Math = () => {
   );
 }
 
-export default Math;
+export default MODEL;

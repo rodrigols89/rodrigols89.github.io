@@ -3,7 +3,7 @@ import React from 'react';
 import SecondNavbar from '../../../components/Navigation/SecondNavbar';
 import Footer from '../../../components/Footer/Footer';
 
-import logo from './images/logo.gif';
+import studiesLogo from './images/studies-logo.gif';
 
 import './Studies.scss';
 
@@ -18,7 +18,7 @@ const Studies = () => {
           <div className="col-sm-6">
             <h2 className="text-center">Studies</h2>
             <hr className="star-primary"/>
-            <img src={logo} className="img-fluid img-thumbnail center" alt="img"/>
+            <img src={studiesLogo} className="img-fluid img-thumbnail center" alt="img"/>
           </div>
 
           <div className="col-sm-6 text-project">

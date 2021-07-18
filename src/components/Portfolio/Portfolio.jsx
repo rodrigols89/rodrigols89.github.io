@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 
 import './Portfolio.scss';
 
-import logo from '../../pages/Projects/Studies/images/logo.gif';
+import studiesLogo from '../../pages/Projects/Studies/images/studies-logo.gif';
+import svgLogo from '../../pages/Projects/SVG/images/svg-logo.jpg';
 
 const Portfolio = () => {
   return (
@@ -20,7 +21,7 @@ const Portfolio = () => {
 
           <div className="row">
 
-            <Link to="studies" className="center">
+            <Link to="studies/" className="center">
               <div className="portfolio-item">
                 <div className="portfolio-link">
                   <div className="caption">
@@ -28,7 +29,20 @@ const Portfolio = () => {
                       <i className="fa fa-search-plus fa-3x"></i>
                     </div>
                   </div>
-                  <img src={logo} className="img-fluid img-thumbnail center" alt="img"/>
+                  <img src={studiesLogo} className="img-fluid img-thumbnail center" alt="img"/>
+                </div>
+              </div>
+            </Link>
+
+            <Link to="svg" className="center">
+              <div className="portfolio-item">
+                <div className="portfolio-link">
+                  <div className="caption">
+                    <div className="caption-content">
+                      <i className="fa fa-search-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img src={svgLogo} className="img-fluid img-thumbnail center" alt="img"/>
                 </div>
               </div>
             </Link>

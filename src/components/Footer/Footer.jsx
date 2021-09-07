@@ -12,7 +12,6 @@ const Footer = () => {
             <h3>Location</h3>
             <hr className="style-four"/>            
             <address>
-              <strong>Rodrigo Leite - Software Engineer</strong><br/>
               Campina Grande - PB, CEP: 58401-040<br/>
               Dagoberto Damião, Nº 60, Palmeira<br/>
               TIM - (83) 998819364, (83) 996500112<br/>
@@ -35,12 +34,6 @@ const Footer = () => {
               </li>
               <li className="list-inline-item">
                   <a href="https://twitter.com/drigols" className="btn-social btn-outline" rel="noopener" title="Twitter"><span className="sr-only">Twitter</span><i className="fa fa-fw fa-twitter"></i></a>
-              </li>
-              <li className="list-inline-item">
-                      <a href="https://www.instagram.com/drigols" className="btn-social btn-outline" rel="noopener" title="Instagram"><span className="sr-only">Instagram</span><i className="fa fa-fw fa-instagram"></i></a>
-              </li>
-              <li className="list-inline-item">
-                  <a href="https://www.facebook.com/drigols" className="btn-social btn-outline" rel="noopener" title="Facebook"><span className="sr-only">Facebook</span><i className="fa fa-fw fa-facebook"></i></a>
               </li>
             </ul>
           </div>

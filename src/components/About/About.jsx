@@ -23,8 +23,11 @@ const About = () => {
 							Hello guys !
 						</p>
 						<p>
-							My name is <strong>Rodrigo Leite da Silva</strong>. I'm 32 years old and I graduated in <u>Analysis and Systems Development</u>. <br/>
-							My main interests in technology are with Mathematics, Algorithms, and Artificial Intelligence to make the world a better place.
+							My name is <strong>Rodrigo Leite da Silva</strong>. I am 32 years old, and I graduated in <u>Analysis and Systems Development</u> from Faculdade Maurício de Nassau - Campina Grande/Brazil.
+              <br/>
+              <br/>
+
+							My main interests are Artificial Intelligence projects involving Machine Learning techniques like: Data Visualization, Preprocessing, Cross-Validation, Linear Regression, and Data Analysis.
 						</p>
 					</div>
 				</div>

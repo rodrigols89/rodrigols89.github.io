@@ -12,9 +12,9 @@ const Footer = () => {
             <h3>Location</h3>
             <hr className="style-four"/>            
             <address>
-              Campina Grande - PB, CEP: 58401-040<br/>
-              Dagoberto Damião, Nº 60, Palmeira<br/>
-              TIM - (83) 998819364, (83) 996500112<br/>
+              Remígio - PB, CEP: 58398-000<br/>
+              Luiz Barbosa, Nº 30, Centro<br/>
+              TIM - (83) 996500112, (83) 998819364<br/>
               <strong>E-mail: </strong><a href="mailto:#">drigols.creative@gmail.com</a>
             </address>
           </div>
@@ -24,16 +24,13 @@ const Footer = () => {
             <hr className="style-four"/>
             <ul className="list-inline">
               <li className="list-inline-item">
-                  <a href="https://github.com/drigols" className="btn-social btn-outline" rel="noopener" title="GitHub"><span className="sr-only">GitHub</span><i className="fa fa-fw fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/drigols" className="btn-social btn-outline" rel="noopener" title="Linkedin"><span className="sr-only">Linkedin</span><i className="fa fa-fw fa-linkedin"></i></a>
               </li>
               <li className="list-inline-item">
-                      <a href="https://stackoverflow.com/users/8047904/drigols" className="btn-social btn-outline" rel="noopener" title="StackOverflow"><span className="sr-only">StackOverflow</span><i className="fa fa-fw fa-stack-overflow"></i></a>
+                <a href="https://github.com/drigols" className="btn-social btn-outline" rel="noopener" title="GitHub"><span className="sr-only">GitHub</span><i className="fa fa-fw fa-github"></i></a>
               </li>
               <li className="list-inline-item">
-                  <a href="https://www.linkedin.com/in/drigols" className="btn-social btn-outline" rel="noopener" title="Linkedin"><span className="sr-only">Linkedin</span><i className="fa fa-fw fa-linkedin"></i></a>
-              </li>
-              <li className="list-inline-item">
-                  <a href="https://twitter.com/drigols" className="btn-social btn-outline" rel="noopener" title="Twitter"><span className="sr-only">Twitter</span><i className="fa fa-fw fa-twitter"></i></a>
+                <a href="https://stackoverflow.com/users/8047904/drigols" className="btn-social btn-outline" rel="noopener" title="StackOverflow"><span className="sr-only">StackOverflow</span><i className="fa fa-fw fa-stack-overflow"></i></a>
               </li>
             </ul>
           </div>

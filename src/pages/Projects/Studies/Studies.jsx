@@ -40,7 +40,7 @@ const Studies = () => {
               <br/>
               <br/>
               <strong>NOTE:</strong><br/>
-              Many of my studies are in Portuguese (Brazil)... <a href="https://github.com/drigols/studies/tree/master-pt-br"><strong>You can see here</strong></a>.
+              Many of my studies are in Portuguese (Brazil).
               <br/>
               <br/>
             </div>

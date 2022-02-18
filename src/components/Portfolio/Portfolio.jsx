@@ -21,20 +21,6 @@ const Portfolio = () => {
 
           <div className="row">
 
-            {/* Studies Project */}
-            <Link to="studies" className="center">
-              <div className="portfolio-item">
-                <div className="portfolio-link">
-                  <div className="caption">
-                    <div className="caption-content">
-                      <i className="fa fa-search-plus fa-3x"></i>
-                    </div>
-                  </div>
-                  <img src={studiesLogo} className="img-fluid img-thumbnail center" alt="img"/>
-                </div>
-              </div>
-            </Link>
-
             {/* Turnover Project */}
             <Link to="turnover" className="center">
               <div className="portfolio-item">
@@ -45,6 +31,20 @@ const Portfolio = () => {
                     </div>
                   </div>
                   <img src={TurnoverLogo} className="img-fluid img-thumbnail center" alt="img"/>
+                </div>
+              </div>
+            </Link>
+
+            {/* Studies Project */}
+            <Link to="studies" className="center">
+              <div className="portfolio-item">
+                <div className="portfolio-link">
+                  <div className="caption">
+                    <div className="caption-content">
+                      <i className="fa fa-search-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img src={studiesLogo} className="img-fluid img-thumbnail center" alt="img"/>
                 </div>
               </div>
             </Link>

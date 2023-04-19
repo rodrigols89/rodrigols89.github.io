@@ -3,7 +3,7 @@ import React from 'react';
 import SecondNavbar from '../../../components/Navigation/SecondNavbar';
 import Footer from '../../../components/Footer/Footer';
 
-import studiesLogo from './images/studies-logo.gif';
+import studiesLogo from './images/studies-logo-300x200.gif';
 
 import './Studies.scss';
 

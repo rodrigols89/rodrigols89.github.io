@@ -3,7 +3,7 @@ import React from 'react';
 import SecondNavbar from '../../../components/Navigation/SecondNavbar';
 import Footer from '../../../components/Footer/Footer';
 
-import turnoverImg from './images/turnover.png';
+import turnoverImg from './images/turnover-300x200.png';
 
 import './Studies.scss';
 

@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 import './Portfolio.scss';
 
-import studiesLogo from '../../pages/Projects/Studies/images/studies-logo.gif';
-import TurnoverLogo from '../../pages/Projects/Turnover/images/turnover.png';
-import jspLogo from '../../pages/Projects/JSP/images/jsp-logo.png';
-import MusicalNotesLogo from '../../pages/Projects/Musical-Notes/images/musical-notes-logo.png';
+import studiesLogo from '../../pages/Projects/Studies/images/studies-logo-300x200.gif';
+import TurnoverLogo from '../../pages/Projects/Turnover/images/turnover-300x200.png';
+import jspLogo from '../../pages/Projects/JSP/images/jsp-logo-300x200.png';
+import MusicalNotesLogo from '../../pages/Projects/Musical-Notes/images/musical-notes-logo-300x200.jpg';
 
 const Portfolio = () => {
   return (

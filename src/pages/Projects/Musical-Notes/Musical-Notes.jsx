@@ -3,7 +3,7 @@ import React from 'react';
 import SecondNavbar from '../../../components/Navigation/SecondNavbar';
 import Footer from '../../../components/Footer/Footer';
 
-import musicalNotesImg from './images/musical-notes-logo.png';
+import musicalNotesImg from './images/musical-notes-logo-300x200.jpg';
 
 import './Musical-Notes.scss';
 

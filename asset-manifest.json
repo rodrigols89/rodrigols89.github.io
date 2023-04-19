@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8aedfba.chunk.css",
-    "main.js": "/static/js/main.2f6bdd80.chunk.js",
-    "main.js.map": "/static/js/main.2f6bdd80.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0570c957.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0570c957.js.map",
-    "static/js/2.1495b208.chunk.js": "/static/js/2.1495b208.chunk.js",
-    "static/js/2.1495b208.chunk.js.map": "/static/js/2.1495b208.chunk.js.map",
+    "main.css": "/static/css/main.42b59421.chunk.css",
+    "main.js": "/static/js/main.6e630b01.chunk.js",
+    "main.js.map": "/static/js/main.6e630b01.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e816a6f5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e816a6f5.js.map",
+    "static/js/2.690ed72d.chunk.js": "/static/js/2.690ed72d.chunk.js",
+    "static/js/2.690ed72d.chunk.js.map": "/static/js/2.690ed72d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0ed468f408d2ba4da530c6a2cf95a7a7.js": "/precache-manifest.0ed468f408d2ba4da530c6a2cf95a7a7.js",
+    "precache-manifest.1b948bca9e241f11c159a546e1ecc877.js": "/precache-manifest.1b948bca9e241f11c159a546e1ecc877.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.a8aedfba.chunk.css.map": "/static/css/main.a8aedfba.chunk.css.map",
-    "static/js/2.1495b208.chunk.js.LICENSE.txt": "/static/js/2.1495b208.chunk.js.LICENSE.txt",
+    "static/css/main.42b59421.chunk.css.map": "/static/css/main.42b59421.chunk.css.map",
+    "static/js/2.690ed72d.chunk.js.LICENSE.txt": "/static/js/2.690ed72d.chunk.js.LICENSE.txt",
+    "static/js/main.6e630b01.chunk.js.LICENSE.txt": "/static/js/main.6e630b01.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/static/media/background-white.962ec14d.jpg",
     "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.e6cf7c6e.woff2",
-    "static/media/studies-logo.gif": "/static/media/studies-logo.5f6c9bca.gif",
-    "static/media/turnover.png": "/static/media/turnover.e243ba9f.png"
+    "static/media/musical-notes-logo-300x200.jpg": "/static/media/musical-notes-logo-300x200.0ae03218.jpg",
+    "static/media/studies-logo-300x200.gif": "/static/media/studies-logo-300x200.5f6c9bca.gif",
+    "static/media/turnover-300x200.png": "/static/media/turnover-300x200.e243ba9f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0570c957.js",
-    "static/js/2.1495b208.chunk.js",
-    "static/css/main.a8aedfba.chunk.css",
-    "static/js/main.2f6bdd80.chunk.js"
+    "static/js/runtime-main.e816a6f5.js",
+    "static/js/2.690ed72d.chunk.js",
+    "static/css/main.42b59421.chunk.css",
+    "static/js/main.6e630b01.chunk.js"
   ]
 }

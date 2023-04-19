@@ -6,6 +6,7 @@ import './Portfolio.scss';
 import studiesLogo from '../../pages/Projects/Studies/images/studies-logo.gif';
 import TurnoverLogo from '../../pages/Projects/Turnover/images/turnover.png';
 import jspLogo from '../../pages/Projects/JSP/images/jsp-logo.png';
+import MusicalNotesLogo from '../../pages/Projects/Musical-Notes/images/musical-notes-logo.png';
 
 const Portfolio = () => {
   return (
@@ -20,8 +21,25 @@ const Portfolio = () => {
             </div>
           </div>
 
+          {/* First row */}
           <div className="row">
+            {/* Musical Notes Project */}
+            <Link to="musical-notes" className="center">
+              <div className="portfolio-item">
+                <div className="portfolio-link">
+                  <div className="caption">
+                    <div className="caption-content">
+                      <i className="fa fa-search-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img src={MusicalNotesLogo} className="img-fluid img-thumbnail center" alt="img"/>
+                </div>
+              </div>
+            </Link>
+          </div>
 
+          {/* Second row */}
+          <div className="row">
             {/* JSP Project */}
             <Link to="jsp" className="center">
               <div className="portfolio-item">
@@ -35,7 +53,6 @@ const Portfolio = () => {
                 </div>
               </div>
             </Link>
-
             {/* Turnover Project */}
             <Link to="turnover" className="center">
               <div className="portfolio-item">
@@ -49,7 +66,6 @@ const Portfolio = () => {
                 </div>
               </div>
             </Link>
-
             {/* Studies Project */}
             <Link to="studies" className="center">
               <div className="portfolio-item">
@@ -63,8 +79,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </Link>
-
-          </div>
+          </div> {/* Second row */}
         
         </div>
       </section>

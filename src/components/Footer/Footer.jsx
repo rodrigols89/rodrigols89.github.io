@@ -13,8 +13,8 @@ const Footer = () => {
             <hr className="style-four" />
             <address>
               Brazil, State of Paraíba, Zip code: 58398-000<br />
-              TIM - (83) 996500112 (WhatsApp)<br />
-              TIM - (83) 996241663 (Call)<br />
+              Cell phone number: 55 83 996500112 (WhatsApp)<br />
+              Cell phone number: 55 83 996241663 (Call)<br />
               <strong>E-mail: </strong><a href="mailto:#">drigols.creative@gmail.com</a>
             </address>
           </div>

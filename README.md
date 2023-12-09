@@ -17,7 +17,9 @@ npm run start
 ```
 
 **NOTE:**  
-To go up the project for the *"GitHub Pages"* run: **npm run deploy**
+
+ - To go up the project for the *"GitHub Pages"* run: **npm run deploy**.
+ - This project has some problems running on Windows, so I strongly recommend using the Linux Operating System.
 
 ---
 

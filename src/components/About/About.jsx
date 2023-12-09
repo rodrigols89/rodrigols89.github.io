@@ -9,7 +9,7 @@ const About = () => {
 
         <div className="row">
           <div className="col-lg-12 text-center">
-            <h2 className="section-title">About</h2>
+            <h2 className="section-title header-name">About</h2>
             <hr/>
           </div>
         </div>
@@ -23,10 +23,10 @@ const About = () => {
                 Hello everyone!
 						</p>
 						<p>
-                My name is <strong>Rodrigo Leite da Silva</strong>, and I am a software developer with a degree in <strong>Analysis and Systems Development</strong> from Faculdade Maurício de Nassau - Campina Grande/Brazil.
-              <br/>
-              <br/>
-                My main interests are Artificial Intelligence projects involving Machine Learning techniques such as data visualization, preprocessing, cross-validation, linear regression, and data analysis.
+                My name is <strong>Rodrigo Leite da Silva</strong>. I am a software developer with a degree in <strong>Analysis and Systems Development</strong> from Mauricio of Nassau University (Brazil). I have experience in Personal Projects involving Python, Data Science, Machine Learning, and Open-Source.
+                <br/>
+                <br/>
+                My main interests are working with Software Development using my Hard and Soft skills to add financial and productive value to my work environment.
 						</p>
 					</div>
 				</div>

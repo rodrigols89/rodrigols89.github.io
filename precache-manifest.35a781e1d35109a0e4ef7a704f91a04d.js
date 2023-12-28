@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "774d1a3ce823960f816be148495a9e4d",
+    "revision": "68f8310ee5396c9ecb4980056af25721",
     "url": "/index.html"
   },
   {
-    "revision": "7bcfee30037e33717948",
-    "url": "/static/css/main.1b6279ad.chunk.css"
+    "revision": "c3170d01b318cc827967",
+    "url": "/static/css/main.96b64d2c.chunk.css"
   },
   {
     "revision": "9c4dd97a0f9c8129305e",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.97b70178.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7bcfee30037e33717948",
+    "revision": "c3170d01b318cc827967",
     "url": "/static/js/main.2563239d.chunk.js"
   },
   {
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0ae032186658f138b569099d4d49c6fd",
     "url": "/static/media/musical-notes-logo-300x200.0ae03218.jpg"
+  },
+  {
+    "revision": "c63415d1bfc811626a8bdae71126f57e",
+    "url": "/static/media/robot.c63415d1.jpg"
   },
   {
     "revision": "5f6c9bca88f5bfa05c178a2ebfd681c4",

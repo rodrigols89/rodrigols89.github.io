@@ -1,7 +1,11 @@
 @import '../../css/sass/helpers/variables';
 
 #portfolio {
-  background: #e3e3e3;
+  background-image: url('../../assets/images/robot.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   border-top: 1px solid $black;
   border-bottom: 1px solid $black;
   padding-top: 90px;

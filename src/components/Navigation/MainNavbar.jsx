@@ -11,10 +11,7 @@ const MainNavbar = () => {
             <a className="navbar-brand" href="#about">About</a>
           </li>
           <li className="nav-item">
-            <a className="navbar-brand" href="#portfolio">Portfolio</a>
-          </li>
-          <li className="nav-item">
-            <a className="navbar-brand" href="#medium">Medium</a>
+            <a className="navbar-brand" href="#portfolio">Personal Projects</a>
           </li>
         </ul>
       </div>

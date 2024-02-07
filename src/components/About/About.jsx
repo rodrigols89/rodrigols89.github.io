@@ -23,7 +23,7 @@ const About = () => {
                 Hello everyone!
 						</p>
 						<p>
-                My name is <strong>Rodrigo Leite da Silva</strong>. I am a Software Developer with a degree in <strong>Analysis and Systems Development</strong> from Mauricio of Nassau University (Brazil). I am currently specializing in <strong>Software Testing and Quality</strong> also at Mauricio of Nassau University.
+                My name is <strong>Rodrigo Leite da Silva</strong>. I am a Software Developer with a degree in <strong>Analysis and Systems Development</strong> from Mauricio of Nassau College (Brazil). I am currently Graduating (Specialization) in <strong>Applied Statistics</strong> at Focus College.
                 <br/>
                 <br/>
                 I have experience in Personal Projects involving C++, Python, Data Science, Machine Learning, and Open-Source.

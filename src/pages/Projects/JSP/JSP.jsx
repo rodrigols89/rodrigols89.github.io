@@ -3,57 +3,63 @@ import React from 'react';
 import SecondNavbar from '../../../components/Navigation/SecondNavbar';
 import Footer from '../../../components/Footer/Footer';
 
-import jspImg from './images/jsp-logo-300x200.png';
+import jspImg from './images/jsp-logo-800x400.png';
 
 import './JSP.scss';
 
 const JSP = () => {
-  return (
-    <div>
-      <SecondNavbar />
+    return (
+        <div>
+            <SecondNavbar />
 
-      <div className="container-fluid project">
-        <div className="row modal-body">
+            <div className="container-fluid project">
+                <div className="row modal-body">
 
-          <div className="col-sm-6">
-            <h2 className="text-center">Job Salary Prediction</h2>
-            <hr className="star-primary"/>
-            <img src={jspImg} className="img-fluid img-thumbnail center" alt="img"/>
-          </div>
+                    <div className="col-sm-6">
+                        <h2 className="text-center">Job Salary Prediction</h2>
+                        <hr className="star-primary" />
+                        <img src={jspImg} className="img-fluid img-thumbnail center" alt="img" />
+                    </div>
 
-          <div className="col-sm-6 text-project">
-            <div>
-            The <strong>Job Salary Prediction</strong> project aims to develop a solution to predict salaries from job advertisements. The main steps
-of the project were Preliminary Data Analysis, Pre-Processing, Training and Validation of Machine Learning models.              <br/>
-              <br/>
-              <strong>NOTE:</strong><br/>
-              The project notes in the official repository are all in Portuguese (Brazil).
-              <br/>
-              <br/>
-              <a href="https://github.com/drigols/job-salary-prediction" rel="noopener"><span className="section-title"> → [Project in GitHub]</span></a>
-              <br/>
-              <br/>
+                    <div className="col-sm-6 text-project">
+                        <div>
+                            The project <strong>Job Salary Prediction</strong> aims to develop a solution for predicting salaries in job advertisements.
+                            <ul>
+                                <li>Developed this project using the <strong>CRISP-DM</strong> methodology.</li>
+                                <li>I utilized the <strong>Python</strong> programming language.</li>
+                                <li>I developed a <a href="https://drigols-jsp.streamlit.app/" target="_blank" rel="noopener noreferrer">Web Interface</a> with <strong>Streamlit</strong> for people to predict salaries.</li>
+                                <li>Also implemented a <strong>Data Lake Architecture</strong> to ingest (landing), process (processing), and provide (curated) data during the project development.</li>
+                                <li>I conducted <a href="https://github.com/drigols/jsp#eda" target="_blank" rel="noopener noreferrer">Exploratory Data Analysis (EDA)</a> to identify missing data, patterns, and gain insights.</li>
+                                <li>I <a href="https://github.com/drigols/jsp#training-evaluation" target="_blank" rel="noopener noreferrer">Trained and Validated</a> <strong>Machine Learning</strong> models to predict salaries in job advertisements using the <strong>CatBoost</strong> library.</li>
+                                <li>I created a <strong>CLI</strong> that will be used to perform basic <strong>ETL (Extract, Transform, Load)</strong> operations using the Typer library.</li>
+                                <li>I used <strong>Docker</strong> to store and serve data to the application.</li>
+                            </ul>
+                            <a href="https://drigols-jsp.streamlit.app/" target="_blank" rel="noopener noreferrer"><span className="section-title"> → [Project on Web]</span></a>
+                            <br />
+                            <a href="https://github.com/drigols/jsp" target="_blank" rel="noopener noreferrer"><span className="section-title"> → [Project on GitHub]</span></a>
+                            <br />
+                            <br />
+                        </div>
+                        <ul className="list-inline item-details">
+                            <li>
+                                Client: <strong><a href="https://www.gria.io/" target="_blank" rel="noopener noreferrer">GRIA</a></strong>
+                            </li>
+                            <li>
+                                Date: <strong>February 2024</strong>
+                            </li>
+                            <li>
+                                Service: <strong>Challenge</strong>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
             </div>
-            <ul className="list-inline item-details">
-              <li>
-                Client: <strong><a href="https://www.gria.io/">GRIA</a></strong>
-              </li>
-              <li>
-                Date: <strong>January 2022</strong>
-              </li>
-              <li>
-                Service: <strong>Challenge</strong>
-              </li>
-            </ul>
-          </div>
+
+            <Footer />
 
         </div>
-      </div>
-
-      <Footer />
-
-    </div>
-  );
+    );
 }
 
 export default JSP;

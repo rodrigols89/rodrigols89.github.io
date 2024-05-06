@@ -29,7 +29,7 @@ const MusicalNotes = () => {
                       To practice developing a CLI using Typer and Rich libraries.
                   </li>
                   <li>
-                      To practice developing software documentation with MKDocs and ReadTheDocs. You can view the project documentation by clicking here: <a href="https://musical-notes.readthedocs.io/en/latest/">Musical Notes - Documentation</a>.
+                      To practice developing software documentation with MKDocs and ReadTheDocs. You can view the project documentation by clicking here: <a href="https://musical-notes.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer">Musical Notes - Documentation</a>.
                   </li>
                   <li>
                       To practice Continuous Integration (CI) with GitHub Actions.
@@ -38,10 +38,10 @@ const MusicalNotes = () => {
                       To practice testing and code coverage using Pytest and Codecov.
                   </li>
                   <li>
-                      Finally, to publish the project on PyPi. You can follow the package by clicking here: <a href="https://pypi.org/project/musical-notes/0.1.0/">Musical Notes - PyPi</a>
+                      Finally, to publish the project on PyPi. You can follow the package by clicking here: <a href="https://pypi.org/project/musical-notes/0.1.0/" target="_blank" rel="noopener noreferrer">Musical Notes - PyPi</a>
                   </li>
                 </ul>
-              <a href="https://github.com/rodrigols89/musical-notes" rel="noopener"><span className="section-title"> → [Project in GitHub]</span></a>
+              <a href="https://github.com/rodrigols89/musical-notes"  target="_blank" rel="noopener noreferrer"><span className="section-title"> → [Project in GitHub]</span></a>
               <br/>
               <br/>
               <br/>

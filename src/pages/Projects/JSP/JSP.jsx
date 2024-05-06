@@ -27,16 +27,14 @@ const JSP = () => {
                             <ul>
                                 <li>Developed this project using the <strong>CRISP-DM</strong> methodology.</li>
                                 <li>I utilized the <strong>Python</strong> programming language.</li>
-                                <li>I developed a <a href="https://drigols-jsp.streamlit.app/" target="_blank" rel="noopener noreferrer">Web Interface</a> with <strong>Streamlit</strong> for people to predict salaries.</li>
+                                <li>I developed a <a href="https://rodrigols89-jsp.streamlit.app/" target="_blank" rel="noopener noreferrer">Web Interface</a> with <strong>Streamlit</strong> for people to predict salaries.</li>
                                 <li>Also implemented a <strong>Data Lake Architecture</strong> to ingest (landing), process (processing), and provide (curated) data during the project development.</li>
-                                <li>I conducted <a href="https://github.com/drigols/jsp#eda" target="_blank" rel="noopener noreferrer">Exploratory Data Analysis (EDA)</a> to identify missing data, patterns, and gain insights.</li>
-                                <li>I <a href="https://github.com/drigols/jsp#training-evaluation" target="_blank" rel="noopener noreferrer">Trained and Validated</a> <strong>Machine Learning</strong> models to predict salaries in job advertisements using the <strong>CatBoost</strong> library.</li>
+                                <li>I conducted <a href="https://github.com/rodrigols89/jsp#eda" target="_blank" rel="noopener noreferrer">Exploratory Data Analysis (EDA)</a> to identify missing data, patterns, and gain insights.</li>
+                                <li>I <a href="https://github.com/rodrigols89/jsp#training-evaluation" target="_blank" rel="noopener noreferrer">Trained and Validated</a> <strong>Machine Learning</strong> models to predict salaries in job advertisements using the <strong>CatBoost</strong> library.</li>
                                 <li>I created a <strong>CLI</strong> that will be used to perform basic <strong>ETL (Extract, Transform, Load)</strong> operations using the Typer library.</li>
                                 <li>I used <strong>Docker</strong> to store and serve data to the application.</li>
                             </ul>
-                            <a href="https://drigols-jsp.streamlit.app/" target="_blank" rel="noopener noreferrer"><span className="section-title"> → [Project on Web]</span></a>
-                            <br />
-                            <a href="https://github.com/drigols/jsp" target="_blank" rel="noopener noreferrer"><span className="section-title"> → [Project on GitHub]</span></a>
+                            <a href="https://github.com/rodrigols89/jsp" target="_blank" rel="noopener noreferrer"><span className="section-title"> → [Project on GitHub]</span></a>
                             <br />
                             <br />
                         </div>

@@ -41,7 +41,7 @@ const MusicalNotes = () => {
                       Finally, to publish the project on PyPi. You can follow the package by clicking here: <a href="https://pypi.org/project/musical-notes/0.1.0/">Musical Notes - PyPi</a>
                   </li>
                 </ul>
-              <a href="https://github.com/drigols/musical-notes" rel="noopener"><span className="section-title"> → [Project in GitHub]</span></a>
+              <a href="https://github.com/rodrigols89/musical-notes" rel="noopener"><span className="section-title"> → [Project in GitHub]</span></a>
               <br/>
               <br/>
               <br/>

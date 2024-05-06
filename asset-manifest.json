@@ -1,29 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.6210c71b.chunk.css",
-    "main.js": "/static/js/main.ee915314.chunk.js",
-    "main.js.map": "/static/js/main.ee915314.chunk.js.map",
+    "main.css": "/static/css/main.2d7d6f54.chunk.css",
+    "main.js": "/static/js/main.887409ad.chunk.js",
+    "main.js.map": "/static/js/main.887409ad.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e816a6f5.js",
     "runtime-main.js.map": "/static/js/runtime-main.e816a6f5.js.map",
-    "static/js/2.f7450cb7.chunk.js": "/static/js/2.f7450cb7.chunk.js",
-    "static/js/2.f7450cb7.chunk.js.map": "/static/js/2.f7450cb7.chunk.js.map",
+    "static/js/2.8cf3b77e.chunk.js": "/static/js/2.8cf3b77e.chunk.js",
+    "static/js/2.8cf3b77e.chunk.js.map": "/static/js/2.8cf3b77e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9b349d77e353060e2bdb268decbfda9b.js": "/precache-manifest.9b349d77e353060e2bdb268decbfda9b.js",
+    "precache-manifest.cb159560c4090a2e789bf04fad3a1720.js": "/precache-manifest.cb159560c4090a2e789bf04fad3a1720.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.6210c71b.chunk.css.map": "/static/css/main.6210c71b.chunk.css.map",
-    "static/js/2.f7450cb7.chunk.js.LICENSE.txt": "/static/js/2.f7450cb7.chunk.js.LICENSE.txt",
+    "static/css/main.2d7d6f54.chunk.css.map": "/static/css/main.2d7d6f54.chunk.css.map",
+    "static/js/2.8cf3b77e.chunk.js.LICENSE.txt": "/static/js/2.8cf3b77e.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.e6cf7c6e.woff2",
     "static/media/jsp-logo-800x400.png": "/static/media/jsp-logo-800x400.5dafcfd4.png",
     "static/media/jsp-new-logo-300x200.png": "/static/media/jsp-new-logo-300x200.c44e0b82.png",
     "static/media/musical-notes-logo-300x200.jpg": "/static/media/musical-notes-logo-300x200.0ae03218.jpg",
     "static/media/Portfolio.scss": "/static/media/robot.c63415d1.jpg",
-    "static/media/studies-logo-300x200.gif": "/static/media/studies-logo-300x200.5f6c9bca.gif",
-    "static/media/turnover-300x200.png": "/static/media/turnover-300x200.e243ba9f.png"
+    "static/media/studies-logo-300x200.gif": "/static/media/studies-logo-300x200.5f6c9bca.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.e816a6f5.js",
-    "static/js/2.f7450cb7.chunk.js",
-    "static/css/main.6210c71b.chunk.css",
-    "static/js/main.ee915314.chunk.js"
+    "static/js/2.8cf3b77e.chunk.js",
+    "static/css/main.2d7d6f54.chunk.css",
+    "static/js/main.887409ad.chunk.js"
   ]
 }

@@ -27,7 +27,7 @@ const JSP = () => {
                             <ul>
                                 <li>Developed this project using the <strong>CRISP-DM</strong> methodology.</li>
                                 <li>I utilized the <strong>Python</strong> programming language.</li>
-                                <li>I developed a <a href="https://rodrigols89-jsp.streamlit.app/" target="_blank" rel="noopener noreferrer">Web Interface</a> with <strong>Streamlit</strong> for people to predict salaries.</li>
+                                <li>I developed a <a href="https://rodrigols89.streamlit.app/" target="_blank" rel="noopener noreferrer">Web Interface</a> with <strong>Streamlit</strong> for people to predict salaries.</li>
                                 <li>Also implemented a <strong>Data Lake Architecture</strong> to ingest (landing), process (processing), and provide (curated) data during the project development.</li>
                                 <li>I conducted <a href="https://github.com/rodrigols89/jsp#eda" target="_blank" rel="noopener noreferrer">Exploratory Data Analysis (EDA)</a> to identify missing data, patterns, and gain insights.</li>
                                 <li>I <a href="https://github.com/rodrigols89/jsp#training-evaluation" target="_blank" rel="noopener noreferrer">Trained and Validated</a> <strong>Machine Learning</strong> models to predict salaries in job advertisements using the <strong>CatBoost</strong> library.</li>

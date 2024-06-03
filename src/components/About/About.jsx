@@ -24,9 +24,9 @@ const About = () => {
                         </p>
                         <p>
                             <ul>
-                                <li>I am a Software Developer with a degree in <strong>Analysis and Systems Development</strong> from <a href="https://www.uninassau.edu.br/" target="_blank" rel="noopener noreferrer">Mauricio of Nassau</a> College</li>
-                                <li>Currently I am Graduating (Specialization) in <strong>Applied Statistics</strong> at <a href="https://faculdadefocus.com.br/" target="_blank" rel="noopener noreferrer">Focus</a> College.</li>
-                                <li>I have experience in Personal Projects involving Python, Data Science, and Open-Source.</li>
+                                <li>I am a Software Developer with a degree in <strong>Analysis and Systems Development</strong> from <a href="https://www.uninassau.edu.br/" target="_blank" rel="noopener noreferrer">Mauricio of Nassau</a> College.</li>
+                                <li>Currently, I am pursuing a specialization degree in <strong>"Data Science"</strong> and <strong>"Information Security"</strong> with the aim of creating Artificial Intelligence and Cybersecurity systems.</li>
+                                <li>I have experience in Personal and Open-Source Projects involving Python, and Data Science.</li>
                             </ul>
                         </p>
                     </div>

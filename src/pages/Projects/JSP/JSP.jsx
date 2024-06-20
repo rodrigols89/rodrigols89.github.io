@@ -23,16 +23,15 @@ const JSP = () => {
 
                     <div className="col-sm-6 text-project">
                         <div>
-                            The project <strong>Job Salary Prediction</strong> aims to develop a solution for predicting salaries in job advertisements.
+                            O projeto <strong>Job Salary Prediction</strong> tem como objetivo desenvolver uma solução para prever salários em anúncios de emprego.
                             <ul>
-                                <li>Developed this project using the <strong>CRISP-DM</strong> methodology.</li>
-                                <li>I utilized the <strong>Python</strong> programming language.</li>
-                                <li>I developed a <a href="https://rodrigols89.streamlit.app/" target="_blank" rel="noopener noreferrer">Web Interface</a> with <strong>Streamlit</strong> for people to predict salaries.</li>
-                                <li>Also implemented a <strong>Data Lake Architecture</strong> to ingest (landing), process (processing), and provide (curated) data during the project development.</li>
-                                <li>I conducted <a href="https://github.com/rodrigols89/jsp#eda" target="_blank" rel="noopener noreferrer">Exploratory Data Analysis (EDA)</a> to identify missing data, patterns, and gain insights.</li>
-                                <li>I <a href="https://github.com/rodrigols89/jsp#training-evaluation" target="_blank" rel="noopener noreferrer">Trained and Validated</a> <strong>Machine Learning</strong> models to predict salaries in job advertisements using the <strong>CatBoost</strong> library.</li>
-                                <li>I created a <strong>CLI</strong> that will be used to perform basic <strong>ETL (Extract, Transform, Load)</strong> operations using the Typer library.</li>
-                                <li>I used <strong>Docker</strong> to store and serve data to the application.</li>
+                                <li>Desenvolvi este projeto utilizando a metodologia <strong>CRISP-DM</strong>.</li>
+                                <li>Antes de treinar o modelo, foi realizada uma <a href="https://github.com/rodrigols89/jsp/blob/main/jsp/notebooks/eda.ipynb" target="_blank" rel="noopener noreferrer">Análise Exploratória de Dados (EDA)</a> para identificar dados ausentes e obter insights.</li>
+                                <li>O modelo para esse projeto foi <a href="https://github.com/rodrigols89/jsp/blob/main/jsp/notebooks/training-v1.ipynb" target="_blank" rel="noopener noreferrer">Treinado e Validado</a> utilizando a biblioteca <strong>CatBoost</strong>.</li>
+                                <li>A linguagem de programação <strong>Python</strong> foi utilizada para a codificação.</li>
+                                <li>Uma <a href="https://rodrigols89.streamlit.app/" target="_blank" rel="noopener noreferrer">Aplicação Web</a> com Streamlit foi desenvolvida para que as pessoas possam prever salários.</li>
+                                <li>O projeto possui uma <strong>CLI</strong> para realizar operações básicas de <strong>ETL</strong> usando a biblioteca <i>Typer</i>.</li>
+                                <li>A ferramenta <strong>Docker</strong> foi utilizada para armazenar e servir dados para a aplicação.</li>
                             </ul>
                             <a href="https://github.com/rodrigols89/jsp" target="_blank" rel="noopener noreferrer"><span className="section-title"> → [Project on GitHub]</span></a>
                             <br />

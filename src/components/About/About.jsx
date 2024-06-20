@@ -9,7 +9,7 @@ const About = () => {
 
                 <div className="row">
                     <div className="col-lg-12 text-center">
-                        <h2 className="section-title header-name">About</h2>
+                        <h2 className="section-title header-name">Sobre</h2>
                         <hr />
                     </div>
                 </div>
@@ -20,13 +20,12 @@ const About = () => {
                     </div>
                     <div className="col-lg-12">
                         <p>
-                            Hello everyone!
+                            Olá a todos!
                         </p>
                         <p>
                             <ul>
-                                <li>I am a Software Developer with a degree in <strong>Analysis and Systems Development</strong> from <a href="https://www.uninassau.edu.br/" target="_blank" rel="noopener noreferrer">Mauricio of Nassau</a> College.</li>
-                                <li>Currently, I am pursuing a specialization degree in <strong>"Data Science"</strong> and <strong>"Information Security"</strong> with the aim of creating Artificial Intelligence and Cybersecurity systems.</li>
-                                <li>I have experience in Personal and Open-Source Projects involving Python, and Data Science.</li>
+                                <li>Sou Desenvolvedor de Software com experiência em Projetos Pessoais e de Código Aberto envolvendo Python e Ciência de Dados.</li>
+                                <li>Com formação em <strong>Análise e Desenvolvimento de Sistemas</strong>, atualmente estou me pós-graduando em <strong>Ciência de Dados</strong> com o objetivo de criar sistemas de Inteligência Artificial.</li>
                             </ul>
                         </p>
                     </div>

@@ -9,18 +9,17 @@ const Footer = () => {
         <div className="row">
 
           <div className="footer-col col-md-6">
-            <h3>Location</h3>
+            <h3>LOCALIZAÇÃO</h3> {/* OLD = LOCATION */}
             <hr className="style-four" />
             <address>
-              Brazil, State of Paraíba, Zip code: 58398-000<br />
-              Phone number: 55 83 996500112 (WhatsApp)<br />
-              Phone number: 55 83 996241663 (Call)<br />
+              Brasil, Estado da Paraíba, CEP: 58398-000<br />
+              Telefone: 55 83 996500112 (WhatsApp)<br />
               <strong>E-mail: </strong><a href="mailto:rodrigols89.inbox@gmail.com">rodrigols89.inbox@gmail.com</a>
             </address>
           </div>
 
           <div className="footer-col col-md-6">
-            <h3 className="text-center">Around the Web</h3>
+            <h3 className="text-center">Redes Sociais</h3> {/* OLD = Around the Web */}
             <hr className="style-four" />
             <ul className="list-inline">
               <li className="list-inline-item">

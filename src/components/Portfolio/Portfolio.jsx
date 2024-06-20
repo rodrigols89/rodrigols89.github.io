@@ -15,7 +15,7 @@ const Portfolio = () => {
 
                     <div className="row">
                         <div className="col-lg-12 text-center">
-                            <h2 className="section-title">Personal Projects</h2>
+                            <h2 className="section-title">PROJETOS PESSOAIS</h2>
                             <hr />
                         </div>
                     </div>

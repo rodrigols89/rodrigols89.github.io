@@ -1,6 +1,6 @@
 # Digital Portfolio
 
-[![License MIT](res/license-MIT-blue.svg)](LICENSE.md)
+[![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](LICENSE.md)
 
 ## How to use
 

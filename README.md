@@ -7,6 +7,11 @@
 To use the project first you need to install [Node.js](https://nodejs.org/en) and [npm](https://www.npmjs.com/). With Node.js and npm run the following commands:
 
 ```bash
+nvm install 8
+nvm use 8
+```
+
+```bash
 npm install
 ```
 
@@ -23,4 +28,4 @@ npm run start
 
 ---
 
-**DrigoLS** - Ro**drigo** **L**eite da **S**ilva
+**Rodrigo** **L**eite da **S**ilva

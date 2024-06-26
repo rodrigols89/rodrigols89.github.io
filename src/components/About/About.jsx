@@ -25,7 +25,7 @@ const About = () => {
                         <p>
                             <ul>
                                 <li>Sou Desenvolvedor de Software com experiência em Projetos Pessoais e de Código Aberto envolvendo Python e Ciência de Dados.</li>
-                                <li>Com formação em <strong>Análise e Desenvolvimento de Sistemas</strong>, atualmente estou me pós-graduando em <strong>Ciência de Dados</strong> com o objetivo de criar sistemas de Inteligência Artificial.</li>
+                                <li>"Com formação em <strong>Análise e Desenvolvimento de Sistemas</strong>, atualmente estou me especializando em <strong>Ciência de Dados</strong> e <strong>Segurança da Informação</strong> com o objetivo de desenvolver software inteligente para cibersegurança.</li>
                             </ul>
                         </p>
                     </div>

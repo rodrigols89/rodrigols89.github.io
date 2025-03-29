@@ -21,7 +21,7 @@ const About = () => {
                         </p>
                         <p>
                             <ul>
-                                <li style={{ marginBottom: "10px" }}>Me chamo <strong>Rodrigo Leite da Silva</strong>, sou desenvolvedor de software e graduado em <strong>Análise e Desenvolvimento de Sistemas</strong>, com experiência em projetos pessoais e open-source, especialmente com <i>Python</i>.</li>
+                                <li style={{ marginBottom: "10px" }}>Me chamo <strong>Rodrigo Leite da Silva</strong>, sou desenvolvedor de software, graduado em <strong>Análise e Desenvolvimento de Sistemas</strong>, com experiência em projetos pessoais e open-source, especialmente com <i>Python</i>.</li>
                                 <li>Atualmente, estou cursando <strong>Matemática</strong>, pois acredito que a integração entre os fundamentos computacionais e uma visão analítica aprofundada da matemática é essencial para resolver problemas atuais, principalmente no âmbito da <i>Inteligência Artificial</i>. Assim, busco unir rigor teórico e criatividade prática para desenvolver soluções inteligentes e eficientes.</li>
                             </ul>
                         </p>
